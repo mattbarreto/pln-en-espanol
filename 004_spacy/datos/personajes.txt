@@ -1,0 +1,48 @@
+# Lista de nombres propios del corpus, para el PhraseMatcher del cuaderno 05.
+#
+# ESTA LISTA ES UNA DECISIÓN DE ANÁLISIS, NO UN ARCHIVO DE CONFIGURACIÓN.
+# Quién entra y quién no cambia los resultados. Editala, pero anotá el criterio
+# en tu bitácora.
+#
+# Formato: una entrada por línea, así ->  categoria|texto
+# Las líneas que empiezan con # se ignoran.
+#
+# Criterio con el que se armó esta versión: nombres que aparecen al menos 8
+# veces en los primeros 1.500 párrafos del corpus, separados en tres categorías.
+# No está completa y no pretende estarlo.
+
+# --- PERSONAJE: gente que aparece en los relatos ---
+PERSONAJE|Chiri
+PERSONAJE|Mirta Bertotti
+PERSONAJE|Mónica
+PERSONAJE|Nina
+PERSONAJE|Analía
+PERSONAJE|Cristina
+PERSONAJE|Bernardo
+PERSONAJE|Lucas
+PERSONAJE|Alex
+PERSONAJE|Lelé
+PERSONAJE|Carla
+PERSONAJE|Fernando
+
+# --- LUGAR: lugares con peso propio en el corpus ---
+LUGAR|Mercedes
+LUGAR|Buenos Aires
+LUGAR|Barcelona
+LUGAR|Argentina
+LUGAR|España
+LUGAR|Catalunya
+LUGAR|Mar del Plata
+LUGAR|Luján
+
+# --- PROYECTO: los emprendimientos del autor ---
+PROYECTO|Orsai
+PROYECTO|Más respeto, que soy tu madre
+PROYECTO|Editorial Orsai
+PROYECTO|Revista Orsai
+
+# --- CASO PARA DISCUTIR ---
+# "Mercedes" está cargado como LUGAR porque es la ciudad natal del autor,
+# pero también es un nombre de persona. El PhraseMatcher no distingue: va a
+# marcar las dos cosas igual. ¿Qué hacés con eso? La respuesta depende de tu
+# pregunta de investigación, y hay que escribirla.

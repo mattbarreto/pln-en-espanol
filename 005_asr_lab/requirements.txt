@@ -1,0 +1,20 @@
+# Librerías de la unidad.
+#
+# Se instalan con:
+#     uv pip install -r requirements.txt
+#
+# Cada línea es una librería y la versión mínima que necesitamos.
+# El ">=" quiere decir "esta versión o una más nueva".
+
+faster-whisper>=1.1    # el modelo de transcripción: todo el cuaderno 01
+gradio>=4.44           # la interfaz web del cuaderno 02
+yt-dlp>=2024.8         # bajar audio de plataformas de video: cuaderno 00
+pandas>=2.2            # tabular el corpus de audio y exportar el índice
+ipykernel>=6.29        # correr notebooks dentro de VS Code
+
+# NO hace falta instalar torch.
+# faster-whisper corre sobre CTranslate2, no sobre PyTorch. Son 2 GB que no van.
+
+# FFmpeg NO se instala con pip y NO va acá.
+# Es un programa del sistema operativo, y lo necesita yt-dlp para convertir a MP3.
+# Solo hace falta para el cuaderno 00: ver ANTES_DE_LA_CLASE.md

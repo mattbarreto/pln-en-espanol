@@ -1,0 +1,10 @@
+# Librerías de la unidad.
+#
+# Se instalan con:
+#     uv pip install -r requirements.txt
+
+pandas>=2.2         # trabajar los datos como tablas
+scikit-learn>=1.5   # CountVectorizer y TfidfVectorizer
+matplotlib>=3.9     # gráficos
+wordcloud>=1.9      # nubes de palabras
+ipykernel>=6.29     # correr notebooks dentro de VS Code

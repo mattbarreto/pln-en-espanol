@@ -1,0 +1,16 @@
+# Librerías de este material complementario.
+#
+# Se instalan con:
+#     uv pip install -r requirements.txt
+#
+# Son las mismas que ya instalaste para la Unidad 2 (002_web_scraping).
+# Si ya tenés ese entorno armado y preferís reutilizarlo, podés saltear la
+# creación de un entorno nuevo — pero te recomendamos rehacerlo acá: repetir
+# el procedimiento una vez más es parte de que quede incorporado.
+
+requests>=2.32          # pedir páginas web
+beautifulsoup4>=4.12    # leer la estructura del HTML
+trafilatura>=2.0        # extraer el texto de los artículos
+pandas>=2.2             # tabular el corpus
+matplotlib>=3.9         # graficar frecuencias
+ipykernel>=6.29         # correr notebooks dentro de VS Code

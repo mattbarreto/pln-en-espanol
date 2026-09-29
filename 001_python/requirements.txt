@@ -1,0 +1,11 @@
+# Librerías de la unidad.
+#
+# Se instalan con:
+#     uv pip install -r requirements.txt
+#
+# Esta unidad NO usa librerías externas: todo el código sale con Python solo.
+# La única línea de acá sirve para abrir los cuadernos en VS Code.
+#
+# Si vas a trabajar en Google Colab, no necesitás nada de esto.
+
+ipykernel>=6.29     # correr notebooks dentro de VS Code

@@ -1,0 +1,16 @@
+# Librerías de la unidad.
+#
+# Se instalan con:
+#     uv pip install -r requirements.txt
+#
+# Cada línea es una librería y la versión mínima que necesitamos.
+# El ">=" quiere decir "esta versión o una más nueva".
+
+spacy>=3.8,<4.0     # análisis lingüístico: todo lo de esta unidad
+pandas>=2.2         # tabular los resultados
+numpy>=1.26         # cuentas con vectores (cuaderno 07)
+matplotlib>=3.9     # gráficos
+ipykernel>=6.29     # correr notebooks dentro de VS Code
+
+# Los MODELOS de spaCy no se instalan con pip ni van acá.
+# Se bajan aparte, y NO en clase: ver ANTES_DE_LA_CLASE.md

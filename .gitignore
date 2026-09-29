@@ -1,0 +1,98 @@
+# ─────────────────────────────────────────────────────────────
+# Entornos virtuales y Python
+# ─────────────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+.python-version
+.pytest_cache/
+
+# ─────────────────────────────────────────────────────────────
+# Credenciales y variables de entorno
+# ─────────────────────────────────────────────────────────────
+.env
+.env.*
+!.env.example
+
+# ─────────────────────────────────────────────────────────────
+# Cuadernos y temporales
+# ─────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+_ejecutados/
+
+# Copias de trabajo de estudiantes (para actualizar sin conflictos de merge)
+*_mio.ipynb
+
+# ─────────────────────────────────────────────────────────────
+# Sistema operativo
+# ─────────────────────────────────────────────────────────────
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+desktop.ini
+
+# ─────────────────────────────────────────────────────────────
+# Editores y asistentes de desarrollo / IA
+# ─────────────────────────────────────────────────────────────
+.cursor/
+.claude/
+.gemini/
+.antigravity/
+.copilot/
+.aider*
+.continue/
+CLAUDE.md
+.vscode/
+.idea/
+
+# ─────────────────────────────────────────────────────────────
+# Salidas generadas por la ejecución de los cuadernos
+# ─────────────────────────────────────────────────────────────
+# Unidad 2: Web Scraping
+002_web_scraping/datos/*.html
+002_web_scraping/datos/*.jsonl
+002_web_scraping/datos/*.csv
+002_web_scraping/datos/prueba.txt
+
+# Unidad 3: Text Mining
+003_text_mining/anexo/analisis_del_corpus.py
+003_text_mining/practico/datos/corpus.jsonl
+003_text_mining/practico/datos/corpus_limpio.jsonl
+
+# Unidad 4: spaCy
+004_spacy/pipeline_propio/
+004_spacy/datos/corpus.spacy
+004_spacy/complementarios/ner_personajes/
+004_spacy/pares_frecuentes.csv
+004_spacy/construir_red.py
+
+# Unidad 5: ASR (los audios no se redistribuyen; conserva README)
+005_asr_lab/datos/audios/
+005_asr_lab/salidas/*
+!005_asr_lab/salidas/README.md
+005_asr_lab/app.py
+
+# Unidad 6: Síntesis (descargas crudas y salidas)
+006_sintesis/datos/cc-news-es/*.zip
+006_sintesis/datos/cc-news-es/*.json
+006_sintesis/datos/cc-news-es/.cache/
+006_sintesis/salidas/*
+!006_sintesis/salidas/README.md
+clasificador_sintesis.py
+
+# Audio y video sueltos
+*.mp3
+*.wav
+*.m4a
+*.ogg
+*.opus
+*.mp4
+*.webm
+
+# Reportes y temporales generales
+reporte_*.txt
+pronostico_*.json
