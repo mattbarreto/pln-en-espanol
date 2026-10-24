@@ -1,0 +1,30 @@
+{
+  "_aviso": "Resultados SINTETICOS con la forma de organic_results de SerpAPI. Los escribio el equipo del curso para poder ejecutar el cuaderno sin clave. No son resultados reales de busqueda.",
+  "consulta": "jornada de vacunación antigripal en Rosario esta semana",
+  "organic_results": [
+    {
+      "position": 1,
+      "title": "Vacunación antigripal: cronograma de la semana",
+      "link": "https://ejemplo.org/salud/cronograma",
+      "snippet": "El cronograma de la semana incluye jornadas de vacunación antigripal en centros de salud de los seis distritos, de lunes a viernes de 8 a 14 horas, con DNI."
+    },
+    {
+      "position": 2,
+      "title": "Campaña 2019: vacunación antigripal gratuita",
+      "link": "https://ejemplo.org/archivo/2019",
+      "snippet": "En 2019 la campaña de vacunación antigripal se realizó en escuelas y plazas durante el mes de abril."
+    },
+    {
+      "position": 3,
+      "title": "Qué es la gripe y cómo se previene",
+      "link": "https://ejemplo.org/salud/gripe",
+      "snippet": "La gripe es una infección respiratoria. La vacunación anual, el lavado de manos y la ventilación de ambientes reducen el contagio."
+    },
+    {
+      "position": 4,
+      "title": "Horarios del transporte urbano",
+      "link": "https://ejemplo.org/movilidad/horarios",
+      "snippet": "Consulte los recorridos y frecuencias de las líneas de colectivo durante el fin de semana."
+    }
+  ]
+}

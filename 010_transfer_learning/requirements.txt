@@ -1,0 +1,24 @@
+# Librerias de la unidad 010: Transfer learning.
+#
+# Se instalan con:
+#     uv venv --python 3.12
+#     uv pip install -r requirements.txt
+#
+# Cada linea es una libreria y la version minima que necesitamos.
+# El ">=" quiere decir "esta version o una mas nueva".
+
+torch>=2.6                  # motor de calculo y entrenamiento (PyTorch)
+transformers>=4.48,<5.0     # carga modelos, pipelines y Trainer
+datasets>=3.0               # tablas de textos para entrenar con Trainer
+accelerate>=1.0             # lo necesita Trainer para entrenar
+scikit-learn>=1.4           # TF-IDF, regresion logistica y metricas
+pandas>=2.2                 # tablas de datos y resultados
+numpy>=1.26                 # cuentas con vectores
+matplotlib>=3.9             # visualizaciones compartidas del curso
+sentencepiece>=0.2          # tokenizador del modelo de traduccion (cuaderno 01)
+ipykernel>=6.29             # correr los cuadernos dentro de VS Code
+nbconvert>=7.16             # ejecutar los cuadernos de arriba a abajo
+
+# Los MODELOS no se instalan con pip ni van aca. Se bajan aparte, y NO en clase.
+# Ver ANTES_DE_LA_CLASE.md.
+

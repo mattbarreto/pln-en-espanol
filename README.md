@@ -60,12 +60,15 @@ La pregunta de fondo que articula todo el laboratorio:
  TRAMO C · INTEGRACIÓN Y SÍNTESIS
      ↓
      ● Síntesis de técnicas y clasificación ......... 006_sintesis
+     ↓
+     ● Auditar una medición antes de creerle ........ 007_clinica_de_errores
+     ↓
+     ● Sentimiento: reglas, aprendizaje, preentrenado 008_sentimiento
 
  TRAMO D · REPRESENTACIONES APRENDIDAS Y EMBEDDINGS
      ↓
-     ○ Word2Vec → GloVe → fastText
-     ↓
-     ○ Sentence embeddings y búsqueda semántica
+     ● Word2Vec → fastText → embeddings de oración
+       y búsqueda semántica ......................... 009_representaciones_semanticas
 
  TRAMO E · ARQUITECTURAS Y MODELOS DEL LENGUAJE
      ↓
@@ -94,6 +97,9 @@ La pregunta de fondo que articula todo el laboratorio:
 | 4 | [`004_spacy/`](004_spacy/) | Análisis lingüístico morfosintáctico | Local en VS Code | `spacy` + modelos en español |
 | 5 | [`005_asr_lab/`](005_asr_lab/) | Del audio al texto: Whisper y Gradio | Local **o** Colab con GPU | `faster-whisper`, `gradio`, `yt-dlp` |
 | 6 | [`006_sintesis/`](006_sintesis/) | Integración, polaridad y clasificación | Local en VS Code | `spacy`, `scikit-learn`, `pandas` |
+| 7 | [`007_clinica_de_errores/`](007_clinica_de_errores/) | Auditar una medición antes de creerle | Local en VS Code o Colab | `pandas`, `scikit-learn`, `matplotlib` |
+| 8 | [`008_sentimiento/`](008_sentimiento/) | Sentimiento: reglas, aprendizaje y modelo preentrenado | Local en VS Code | `scikit-learn`, `pysentimiento`, `pandas` |
+| 9 | [`009_representaciones_semanticas/`](009_representaciones_semanticas/) | De contar palabras a aprender del contexto: Word2Vec, fastText y embeddings de oración | Local en VS Code (vectores de varios GB) | `gensim`, `sentence-transformers`, `scikit-learn` |
 
 ### Material transversal y entregas
 
@@ -141,6 +147,9 @@ Luego, abrís la carpeta en **Visual Studio Code**, abrís el cuaderno y elegís
 | 5 | Audios para ASR | Seleccionados por cada estudiante; los audios MP3 no se redistribuyen en el repo. |
 | 6 | Prensa argentina (`ar_muestra_5k.parquet`) | Subconjunto representativo de `LeoCordoba/CC-NEWS-ES` (Common Crawl News). |
 | 6 | Reseñas de polaridad (`opiniones_polaridad.csv`) | Dataset sintético balanceado generado con `Faker`. |
+| 7 | 26 cuentos de Horacio Quiroga (volumen adulto e infantil) | Dominio público, tomados de es.wikisource.org. |
+| 8 | Textos de ejemplo y titulares de 2019 | Los textos los construyó el docente; los titulares vienen de [`pysentimiento/spanish-targeted-sentiment-headlines`](https://huggingface.co/datasets/pysentimiento/spanish-targeted-sentiment-headlines). |
+| 9 | Fragmentos literarios, consultas y juicios de relevancia | Ver [FUENTE.md](009_representaciones_semanticas/datos/FUENTE.md). Los vectores preentrenados (SBW, `wiki.es`) se descargan aparte y no se redistribuyen. |
 
 ---
 

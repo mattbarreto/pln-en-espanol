@@ -1,0 +1,218 @@
+[
+  {
+    "id": "educación_0",
+    "texto": "Abrió la inscripción a talleres de escritura en la biblioteca barrial.",
+    "etiqueta": "educación",
+    "split": "train"
+  },
+  {
+    "id": "educación_1",
+    "texto": "La escuela organiza una muestra de proyectos de ciencias.",
+    "etiqueta": "educación",
+    "split": "train"
+  },
+  {
+    "id": "educación_2",
+    "texto": "El instituto ofrece tutorías para preparar los exámenes.",
+    "etiqueta": "educación",
+    "split": "train"
+  },
+  {
+    "id": "educación_3",
+    "texto": "Se renovaron las becas para estudiantes del turno noche.",
+    "etiqueta": "educación",
+    "split": "train"
+  },
+  {
+    "id": "educación_4",
+    "texto": "La universidad invita a un seminario de historia regional.",
+    "etiqueta": "educación",
+    "split": "train"
+  },
+  {
+    "id": "educación_5",
+    "texto": "Docentes y estudiantes preparan una feria de libros.",
+    "etiqueta": "educación",
+    "split": "train"
+  },
+  {
+    "id": "educación_6",
+    "texto": "El curso de programación tendrá encuentros semanales.",
+    "etiqueta": "educación",
+    "split": "val"
+  },
+  {
+    "id": "educación_7",
+    "texto": "El centro cultural abre un taller de fotografía.",
+    "etiqueta": "educación",
+    "split": "val"
+  },
+  {
+    "id": "educación_8",
+    "texto": "La biblioteca ofrece encuentros de lectura para adolescentes.",
+    "etiqueta": "educación",
+    "split": "val"
+  },
+  {
+    "id": "educación_9",
+    "texto": "La escuela publicó su calendario de evaluaciones.",
+    "etiqueta": "educación",
+    "split": "test"
+  },
+  {
+    "id": "educación_10",
+    "texto": "El instituto habilitó consultas sobre equivalencias.",
+    "etiqueta": "educación",
+    "split": "test"
+  },
+  {
+    "id": "educación_11",
+    "texto": "La universidad organiza una jornada de orientación vocacional.",
+    "etiqueta": "educación",
+    "split": "test"
+  },
+  {
+    "id": "movilidad_0",
+    "texto": "El colectivo cambia su recorrido por obras en la avenida.",
+    "etiqueta": "movilidad",
+    "split": "train"
+  },
+  {
+    "id": "movilidad_1",
+    "texto": "La estación anunció horarios especiales para el tren.",
+    "etiqueta": "movilidad",
+    "split": "train"
+  },
+  {
+    "id": "movilidad_2",
+    "texto": "Se cortará el tránsito durante la reparación del puente.",
+    "etiqueta": "movilidad",
+    "split": "train"
+  },
+  {
+    "id": "movilidad_3",
+    "texto": "El municipio instaló nuevas bicisendas en el barrio.",
+    "etiqueta": "movilidad",
+    "split": "train"
+  },
+  {
+    "id": "movilidad_4",
+    "texto": "La terminal informó demoras en servicios interurbanos.",
+    "etiqueta": "movilidad",
+    "split": "train"
+  },
+  {
+    "id": "movilidad_5",
+    "texto": "Las paradas de la línea local se trasladan dos cuadras.",
+    "etiqueta": "movilidad",
+    "split": "train"
+  },
+  {
+    "id": "movilidad_6",
+    "texto": "El tren agrega frecuencias durante el fin de semana.",
+    "etiqueta": "movilidad",
+    "split": "val"
+  },
+  {
+    "id": "movilidad_7",
+    "texto": "Una avenida permanece cerrada por mantenimiento.",
+    "etiqueta": "movilidad",
+    "split": "val"
+  },
+  {
+    "id": "movilidad_8",
+    "texto": "El barrio solicita mejorar la iluminación de las paradas.",
+    "etiqueta": "movilidad",
+    "split": "val"
+  },
+  {
+    "id": "movilidad_9",
+    "texto": "La ciclovía tendrá un desvío temporal.",
+    "etiqueta": "movilidad",
+    "split": "test"
+  },
+  {
+    "id": "movilidad_10",
+    "texto": "Los usuarios reclaman un servicio nocturno de colectivos.",
+    "etiqueta": "movilidad",
+    "split": "test"
+  },
+  {
+    "id": "movilidad_11",
+    "texto": "La terminal habilitó un nuevo acceso peatonal.",
+    "etiqueta": "movilidad",
+    "split": "test"
+  },
+  {
+    "id": "salud_0",
+    "texto": "El centro de salud ofrece turnos para vacunación.",
+    "etiqueta": "salud",
+    "split": "train"
+  },
+  {
+    "id": "salud_1",
+    "texto": "El hospital organiza una campaña de prevención.",
+    "etiqueta": "salud",
+    "split": "train"
+  },
+  {
+    "id": "salud_2",
+    "texto": "La salita amplió el horario de atención pediátrica.",
+    "etiqueta": "salud",
+    "split": "train"
+  },
+  {
+    "id": "salud_3",
+    "texto": "El municipio habilitó controles de presión arterial.",
+    "etiqueta": "salud",
+    "split": "train"
+  },
+  {
+    "id": "salud_4",
+    "texto": "El hospital informa dónde solicitar estudios clínicos.",
+    "etiqueta": "salud",
+    "split": "train"
+  },
+  {
+    "id": "salud_5",
+    "texto": "El centro barrial invita a una jornada de salud comunitaria.",
+    "etiqueta": "salud",
+    "split": "train"
+  },
+  {
+    "id": "salud_6",
+    "texto": "La campaña de vacunación llegará a las escuelas.",
+    "etiqueta": "salud",
+    "split": "val"
+  },
+  {
+    "id": "salud_7",
+    "texto": "El consultorio abre nuevos turnos para controles.",
+    "etiqueta": "salud",
+    "split": "val"
+  },
+  {
+    "id": "salud_8",
+    "texto": "El equipo de salud dará una charla sobre prevención.",
+    "etiqueta": "salud",
+    "split": "val"
+  },
+  {
+    "id": "salud_9",
+    "texto": "El hospital informa un cambio en la entrega de resultados.",
+    "etiqueta": "salud",
+    "split": "test"
+  },
+  {
+    "id": "salud_10",
+    "texto": "La salita recibe consultas sobre tratamientos.",
+    "etiqueta": "salud",
+    "split": "test"
+  },
+  {
+    "id": "salud_11",
+    "texto": "Se habilitó una jornada de controles en la plaza.",
+    "etiqueta": "salud",
+    "split": "test"
+  }
+]

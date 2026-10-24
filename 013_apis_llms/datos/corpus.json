@@ -1,0 +1,218 @@
+[
+  {
+    "id": "educación_0",
+    "texto": "Abrió la inscripción a talleres de escritura en la biblioteca barrial.",
+    "fuente": "Ejemplo sintético de esta unidad",
+    "licencia": "CC0-1.0"
+  },
+  {
+    "id": "educación_1",
+    "texto": "La escuela organiza una muestra de proyectos de ciencias.",
+    "fuente": "Ejemplo sintético de esta unidad",
+    "licencia": "CC0-1.0"
+  },
+  {
+    "id": "educación_2",
+    "texto": "El instituto ofrece tutorías para preparar los exámenes.",
+    "fuente": "Ejemplo sintético de esta unidad",
+    "licencia": "CC0-1.0"
+  },
+  {
+    "id": "educación_3",
+    "texto": "Se renovaron las becas para estudiantes del turno noche.",
+    "fuente": "Ejemplo sintético de esta unidad",
+    "licencia": "CC0-1.0"
+  },
+  {
+    "id": "educación_4",
+    "texto": "La universidad invita a un seminario de historia regional.",
+    "fuente": "Ejemplo sintético de esta unidad",
+    "licencia": "CC0-1.0"
+  },
+  {
+    "id": "educación_5",
+    "texto": "Docentes y estudiantes preparan una feria de libros.",
+    "fuente": "Ejemplo sintético de esta unidad",
+    "licencia": "CC0-1.0"
+  },
+  {
+    "id": "educación_6",
+    "texto": "El curso de programación tendrá encuentros semanales.",
+    "fuente": "Ejemplo sintético de esta unidad",
+    "licencia": "CC0-1.0"
+  },
+  {
+    "id": "educación_7",
+    "texto": "El centro cultural abre un taller de fotografía.",
+    "fuente": "Ejemplo sintético de esta unidad",
+    "licencia": "CC0-1.0"
+  },
+  {
+    "id": "educación_8",
+    "texto": "La biblioteca ofrece encuentros de lectura para adolescentes.",
+    "fuente": "Ejemplo sintético de esta unidad",
+    "licencia": "CC0-1.0"
+  },
+  {
+    "id": "educación_9",
+    "texto": "La escuela publicó su calendario de evaluaciones.",
+    "fuente": "Ejemplo sintético de esta unidad",
+    "licencia": "CC0-1.0"
+  },
+  {
+    "id": "educación_10",
+    "texto": "El instituto habilitó consultas sobre equivalencias.",
+    "fuente": "Ejemplo sintético de esta unidad",
+    "licencia": "CC0-1.0"
+  },
+  {
+    "id": "educación_11",
+    "texto": "La universidad organiza una jornada de orientación vocacional.",
+    "fuente": "Ejemplo sintético de esta unidad",
+    "licencia": "CC0-1.0"
+  },
+  {
+    "id": "movilidad_0",
+    "texto": "El colectivo cambia su recorrido por obras en la avenida.",
+    "fuente": "Ejemplo sintético de esta unidad",
+    "licencia": "CC0-1.0"
+  },
+  {
+    "id": "movilidad_1",
+    "texto": "La estación anunció horarios especiales para el tren.",
+    "fuente": "Ejemplo sintético de esta unidad",
+    "licencia": "CC0-1.0"
+  },
+  {
+    "id": "movilidad_2",
+    "texto": "Se cortará el tránsito durante la reparación del puente.",
+    "fuente": "Ejemplo sintético de esta unidad",
+    "licencia": "CC0-1.0"
+  },
+  {
+    "id": "movilidad_3",
+    "texto": "El municipio instaló nuevas bicisendas en el barrio.",
+    "fuente": "Ejemplo sintético de esta unidad",
+    "licencia": "CC0-1.0"
+  },
+  {
+    "id": "movilidad_4",
+    "texto": "La terminal informó demoras en servicios interurbanos.",
+    "fuente": "Ejemplo sintético de esta unidad",
+    "licencia": "CC0-1.0"
+  },
+  {
+    "id": "movilidad_5",
+    "texto": "Las paradas de la línea local se trasladan dos cuadras.",
+    "fuente": "Ejemplo sintético de esta unidad",
+    "licencia": "CC0-1.0"
+  },
+  {
+    "id": "movilidad_6",
+    "texto": "El tren agrega frecuencias durante el fin de semana.",
+    "fuente": "Ejemplo sintético de esta unidad",
+    "licencia": "CC0-1.0"
+  },
+  {
+    "id": "movilidad_7",
+    "texto": "Una avenida permanece cerrada por mantenimiento.",
+    "fuente": "Ejemplo sintético de esta unidad",
+    "licencia": "CC0-1.0"
+  },
+  {
+    "id": "movilidad_8",
+    "texto": "El barrio solicita mejorar la iluminación de las paradas.",
+    "fuente": "Ejemplo sintético de esta unidad",
+    "licencia": "CC0-1.0"
+  },
+  {
+    "id": "movilidad_9",
+    "texto": "La ciclovía tendrá un desvío temporal.",
+    "fuente": "Ejemplo sintético de esta unidad",
+    "licencia": "CC0-1.0"
+  },
+  {
+    "id": "movilidad_10",
+    "texto": "Los usuarios reclaman un servicio nocturno de colectivos.",
+    "fuente": "Ejemplo sintético de esta unidad",
+    "licencia": "CC0-1.0"
+  },
+  {
+    "id": "movilidad_11",
+    "texto": "La terminal habilitó un nuevo acceso peatonal.",
+    "fuente": "Ejemplo sintético de esta unidad",
+    "licencia": "CC0-1.0"
+  },
+  {
+    "id": "salud_0",
+    "texto": "El centro de salud ofrece turnos para vacunación.",
+    "fuente": "Ejemplo sintético de esta unidad",
+    "licencia": "CC0-1.0"
+  },
+  {
+    "id": "salud_1",
+    "texto": "El hospital organiza una campaña de prevención.",
+    "fuente": "Ejemplo sintético de esta unidad",
+    "licencia": "CC0-1.0"
+  },
+  {
+    "id": "salud_2",
+    "texto": "La salita amplió el horario de atención pediátrica.",
+    "fuente": "Ejemplo sintético de esta unidad",
+    "licencia": "CC0-1.0"
+  },
+  {
+    "id": "salud_3",
+    "texto": "El municipio habilitó controles de presión arterial.",
+    "fuente": "Ejemplo sintético de esta unidad",
+    "licencia": "CC0-1.0"
+  },
+  {
+    "id": "salud_4",
+    "texto": "El hospital informa dónde solicitar estudios clínicos.",
+    "fuente": "Ejemplo sintético de esta unidad",
+    "licencia": "CC0-1.0"
+  },
+  {
+    "id": "salud_5",
+    "texto": "El centro barrial invita a una jornada de salud comunitaria.",
+    "fuente": "Ejemplo sintético de esta unidad",
+    "licencia": "CC0-1.0"
+  },
+  {
+    "id": "salud_6",
+    "texto": "La campaña de vacunación llegará a las escuelas.",
+    "fuente": "Ejemplo sintético de esta unidad",
+    "licencia": "CC0-1.0"
+  },
+  {
+    "id": "salud_7",
+    "texto": "El consultorio abre nuevos turnos para controles.",
+    "fuente": "Ejemplo sintético de esta unidad",
+    "licencia": "CC0-1.0"
+  },
+  {
+    "id": "salud_8",
+    "texto": "El equipo de salud dará una charla sobre prevención.",
+    "fuente": "Ejemplo sintético de esta unidad",
+    "licencia": "CC0-1.0"
+  },
+  {
+    "id": "salud_9",
+    "texto": "El hospital informa un cambio en la entrega de resultados.",
+    "fuente": "Ejemplo sintético de esta unidad",
+    "licencia": "CC0-1.0"
+  },
+  {
+    "id": "salud_10",
+    "texto": "La salita recibe consultas sobre tratamientos.",
+    "fuente": "Ejemplo sintético de esta unidad",
+    "licencia": "CC0-1.0"
+  },
+  {
+    "id": "salud_11",
+    "texto": "Se habilitó una jornada de controles en la plaza.",
+    "fuente": "Ejemplo sintético de esta unidad",
+    "licencia": "CC0-1.0"
+  }
+]

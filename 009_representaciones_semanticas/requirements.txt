@@ -1,0 +1,22 @@
+# Librerías de la unidad 009: representaciones semánticas (embeddings).
+#
+# Se instalan con:
+#     uv pip install -r requirements.txt
+#
+# Cada línea es una librería y la versión mínima que necesitamos.
+# El ">=" quiere decir "esta versión o una más nueva".
+# Versiones con las que se probó la unidad (Python 3.12.13, macOS, CPU):
+#     numpy 2.5.3, pandas 3.0.6, scikit-learn 1.9.1, matplotlib 3.11.2,
+#     gensim 4.4.0, sentence-transformers 6.1.0, torch 2.14.1
+
+numpy>=1.26             # vectores y cálculo del coseno
+pandas>=2.2             # tablas de fragmentos, consultas y resultados
+scikit-learn>=1.5       # TF-IDF, PCA, SVD y t-SNE
+matplotlib>=3.9         # gráficos de los cuadernos 01 y 05 y de las extensiones
+gensim>=4.3             # Word2Vec, fastText y carga de vectores (cuadernos 02 a 05)
+sentence-transformers>=3.0   # embeddings de oraciones (cuadernos 04 y 05); trae torch
+ipykernel>=6.29         # correr los cuadernos dentro de VS Code
+
+# Los VECTORES PREENTRENADOS no se instalan con pip ni van acá: pesan varios GB.
+# Ver datos/vectors/README.md y ANTES_DE_LA_CLASE.md.
+# El MODELO de oraciones (~470 MB) se descarga solo la primera vez que se usa.

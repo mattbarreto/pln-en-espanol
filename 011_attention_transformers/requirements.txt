@@ -1,0 +1,17 @@
+# Unidad 011 — Attention y Transformers
+# Laboratorio de PLN: Analitica, Textos y Cultura — IFTS24
+#
+# Instalar con:
+#   uv pip install -r requirements.txt
+
+numpy>=2.0              # vectores y operaciones de atencion
+matplotlib>=3.9         # fichas, barras, mapas y diagrama del bloque
+ipywidgets>=8.1         # selector opcional de filas de atencion
+torch>=2.6              # motor de calculo del modelo real (cuaderno 04)
+transformers>=4.48,<5.0 # carga BETO y devuelve sus pesos de atencion (cuaderno 04)
+ipykernel>=6.29         # correr los cuadernos dentro de VS Code
+nbformat>=5.10          # leer los cuadernos al verificarlos
+nbconvert>=7.16         # ejecutar y verificar los cuadernos de arriba a abajo
+
+# El MODELO no se instala con pip: se baja aparte, antes de la clase.
+# Ver ANTES_DE_LA_CLASE.md.

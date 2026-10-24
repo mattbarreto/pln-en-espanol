@@ -36,16 +36,8 @@ Thumbs.db
 desktop.ini
 
 # ─────────────────────────────────────────────────────────────
-# Editores y asistentes de desarrollo / IA
+# Editores
 # ─────────────────────────────────────────────────────────────
-.cursor/
-.claude/
-.gemini/
-.antigravity/
-.copilot/
-.aider*
-.continue/
-CLAUDE.md
 .vscode/
 .idea/
 
@@ -84,6 +76,10 @@ CLAUDE.md
 !006_sintesis/salidas/README.md
 clasificador_sintesis.py
 
+# Unidad 9: Representaciones semánticas (vectores preentrenados de varios GB; conserva README)
+009_representaciones_semanticas/datos/vectors/*
+!009_representaciones_semanticas/datos/vectors/README.md
+
 # Audio y video sueltos
 *.mp3
 *.wav
@@ -96,3 +92,11 @@ clasificador_sintesis.py
 # Reportes y temporales generales
 reporte_*.txt
 pronostico_*.json
+
+# ─────────────────────────────────────────────────────────────
+# Material que no se publica
+# ─────────────────────────────────────────────────────────────
+material_docente/
+trabajos/
+002_web_scraping/teo/
+003_text_mining/*/desgrabacion_*.md

@@ -1,0 +1,9 @@
+id,texto,problema
+D01,La atención no fue buena.,Negación
+D02,La atención no fue mala.,Negación
+D03,"Buenísimo, se borró todo otra vez.",Ironía
+D04,"La profesora explicó bien, pero la plataforma funciona mal.",Dos objetos de valoración
+D05,Dicen que el servicio es pésimo; a mí me resolvieron el problema.,Voces diferentes
+D06,El sistema estará fuera de servicio mañana.,Información sobre un evento desfavorable
+D07,La plataforma está buena.,Uso coloquial
+D08,"La plataforma está buena, pero no resuelve mi problema.",Valoración mixta

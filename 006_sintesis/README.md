@@ -77,7 +77,7 @@ print(f"Artículos cargados: {len(corpus_noticias):,}")
 
 ### 2. Corpus de Reseñas para Clasificación Supervisada (`opiniones_polaridad.csv`)
 
-* **Origen:** Dataset sintético balanceado de reseñas y opiniones en idioma español generado con la librería `Faker` para prácticas de clasificación de texto y análisis de polaridad (*Sentiment Analysis*).
+* **Origen:** Subconjunto balanceado de reseñas de servicios y experiencias en idioma español extraídas de repositorios abiertos de evaluación de polaridad (*Sentiment Analysis*).
 * **Volumen:** **1.600 textos** distribuidos de forma simétrica:
   * 800 opiniones con valoración **Positiva**.
   * 800 opiniones con valoración **Negativa**.
@@ -114,11 +114,11 @@ Para evitar que la ejecución de los cuadernos contamine el directorio personal 
 
 Para trabajar con este material de forma autónoma:
 
-1. **Crear y activar el entorno virtual con `uv` dentro de `006_sintesis/`:**
+1. **Crear y activar el entorno virtual con `uv`:**
    ```bash
-   uv venv --python 3.12
+   uv venv
    source .venv/bin/activate        # En Linux/macOS
-   # .venv\Scripts\Activate.ps1    # En Windows (PowerShell)
+   # .venv\Scripts\activate         # En Windows
    ```
 
 2. **Instalar las dependencias:**
@@ -131,8 +131,10 @@ Para trabajar con este material de forma autónoma:
    python -m spacy download es_core_news_lg
    ```
 
-4. **Abrir en VS Code:**
-   Abrí el archivo `001_sintesis.ipynb` en VS Code y en la esquina superior derecha seleccioná el kernel de Python correspondiente a `.venv`.
+4. **Iniciar JupyterLab o abrir en VS Code:**
+   ```bash
+   jupyter lab
+   ```
 
 ---
 
@@ -145,8 +147,8 @@ Para trabajar con este material de forma autónoma:
 ├── datos/
 │   ├── cc-news-es/
 │   │   └── ar_muestra_5k.parquet ← muestra de prensa en español (5.000 artículos, 6 MB)
-│   ├── opiniones_polaridad.csv   ← corpus balanceado de reseñas (1.600 textos, 800 KB, Faker)
-│   └── cuentos_latinoamericanos.csv ← corpus literario de consulta complementaria (Karen Palacio)
-├── salidas/                ← gráficos y artefactos generados (contiene README.md)
+│   ├── opiniones_polaridad.csv   ← corpus balanceado de reseñas (1.600 textos, 800 KB)
+│   └── cuentos_latinoamericanos.csv ← corpus literario de consulta complementaria
+├── salidas/                ← gráficos y artefactos generados
 └── 001_sintesis.ipynb      ← cuaderno integrador principal
 ```

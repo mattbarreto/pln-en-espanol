@@ -1,0 +1,9 @@
+parcela,temperatura_c,humedad_pct,lluvia_mm,estado_cultivo
+A,29,62,12,normal
+B,34,38,0,hojas marchitas
+C,27,70,22,normal
+D,36,31,0,crecimiento lento
+E,31,45,3,hojas amarillentas
+F,33,41,0,normal
+G,35,39,5,normal
+H,28,55,8,normal

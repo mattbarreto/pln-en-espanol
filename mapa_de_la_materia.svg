@@ -1,0 +1,144 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 2513" width="920" height="2513" role="img" aria-labelledby="t d">
+<title id="t">El viaje de la materia</title>
+<desc id="d">Mapa de las trece estaciones de la materia, del lenguaje como dato al modelo como agente, con la pregunta que abre cada una.</desc>
+<rect width="920" height="2513" rx="18" fill="#FBF7EF"/>
+<rect x="10" y="10" width="900" height="2493" rx="12" fill="none" stroke="#E4DACA" stroke-width="2"/>
+<g transform="translate(262,26) rotate(35)">
+<path d="M0,0 C46,46 44,130 0,214 C-30,150 -30,60 0,0 Z" fill="#E9DFC9" stroke="#8A6D3B" stroke-width="2"/>
+<line x1="0" y1="42" x2="25" y2="26" stroke="#B89B64" stroke-width="1.2"/>
+<line x1="0" y1="42" x2="-16" y2="28" stroke="#B89B64" stroke-width="1.2"/>
+<line x1="0" y1="64" x2="28" y2="48" stroke="#B89B64" stroke-width="1.2"/>
+<line x1="0" y1="64" x2="-18" y2="50" stroke="#B89B64" stroke-width="1.2"/>
+<line x1="0" y1="86" x2="31" y2="70" stroke="#B89B64" stroke-width="1.2"/>
+<line x1="0" y1="86" x2="-20" y2="72" stroke="#B89B64" stroke-width="1.2"/>
+<line x1="0" y1="108" x2="34" y2="92" stroke="#B89B64" stroke-width="1.2"/>
+<line x1="0" y1="108" x2="-22" y2="94" stroke="#B89B64" stroke-width="1.2"/>
+<line x1="0" y1="130" x2="31" y2="114" stroke="#B89B64" stroke-width="1.2"/>
+<line x1="0" y1="130" x2="-20" y2="116" stroke="#B89B64" stroke-width="1.2"/>
+<line x1="0" y1="152" x2="28" y2="136" stroke="#B89B64" stroke-width="1.2"/>
+<line x1="0" y1="152" x2="-18" y2="138" stroke="#B89B64" stroke-width="1.2"/>
+<line x1="0" y1="174" x2="25" y2="158" stroke="#B89B64" stroke-width="1.2"/>
+<line x1="0" y1="174" x2="-16" y2="160" stroke="#B89B64" stroke-width="1.2"/>
+<line x1="0" y1="196" x2="22" y2="180" stroke="#B89B64" stroke-width="1.2"/>
+<line x1="0" y1="196" x2="-14" y2="182" stroke="#B89B64" stroke-width="1.2"/>
+<line x1="0" y1="-14" x2="0" y2="246" stroke="#8A6D3B" stroke-width="3.2" stroke-linecap="round"/>
+<path d="M-3.2,236 L0,262 L3.2,236 Z" fill="#2D2A26"/>
+</g>
+<path d="M112,241 C72,251 142,275 138,299 S118,278 78,304" fill="none" stroke="#2D2A26" stroke-width="3" stroke-linecap="round" opacity="0.75"/>
+<text x="340" y="82" font-family="Georgia, Times New Roman, serif" font-size="40" fill="#2D2A26" font-weight="bold" font-style="normal" text-anchor="start" >El viaje de la materia</text>
+<text x="341" y="112" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13.5" fill="#6B645B" font-weight="normal" font-style="normal" text-anchor="start" >Laboratorio de Tecnologías del Procesamiento del Lenguaje Natural · IFTS N.º 24</text>
+<text x="341" y="150" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="16" fill="#2D2A26" font-weight="bold" font-style="normal" text-anchor="start" >Pensar el PLN, no usarlo como una caja cerrada:</text>
+<text x="341" y="173" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="16" fill="#2D2A26" font-weight="normal" font-style="normal" text-anchor="start" >entender cómo funcionan los sistemas para crearlos y auditarlos.</text>
+<text x="341" y="210" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13.5" fill="#6B645B" font-weight="bold" font-style="normal" text-anchor="start" >Pregunta de control en cada paso:</text>
+<text x="341" y="230" font-family="Georgia, Times New Roman, serif" font-size="15" fill="#8A3B12" font-weight="normal" font-style="italic" text-anchor="start" >¿Qué se pierde, y qué queda justificado afirmar con lo que quedó?</text>
+<rect x="341" y="262" width="12" height="12" rx="3" fill="#B7791F"/>
+<text x="359" y="273" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11.5" fill="#6B645B" font-weight="bold" font-style="normal" text-anchor="start" letter-spacing="1">DATOS</text>
+<rect x="419.5" y="262" width="12" height="12" rx="3" fill="#2F855A"/>
+<text x="437.5" y="273" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11.5" fill="#6B645B" font-weight="bold" font-style="normal" text-anchor="start" letter-spacing="1">LINGÜÍSTICA</text>
+<rect x="546.6" y="262" width="12" height="12" rx="3" fill="#2B6CB0"/>
+<text x="564.6" y="273" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11.5" fill="#6B645B" font-weight="bold" font-style="normal" text-anchor="start" letter-spacing="1">REPRESENTACIONES</text>
+<rect x="714.2" y="262" width="12" height="12" rx="3" fill="#6B46C1"/>
+<text x="732.2" y="273" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11.5" fill="#6B645B" font-weight="bold" font-style="normal" text-anchor="start" letter-spacing="1">MODELOS</text>
+<rect x="808.9000000000001" y="262" width="12" height="12" rx="3" fill="#C53030"/>
+<text x="826.9000000000001" y="273" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11.5" fill="#6B645B" font-weight="bold" font-style="normal" text-anchor="start" letter-spacing="1">SISTEMAS</text>
+<line x1="78" y1="304" x2="78" y2="2217" stroke="#CDBFA6" stroke-width="4" stroke-linecap="round"/>
+<circle cx="78" cy="330" r="22" fill="#B7791F" stroke="#FBF7EF" stroke-width="5"/>
+<text x="78" y="337" font-family="Georgia, Times New Roman, serif" font-size="20" fill="#FFFFFF" font-weight="bold" font-style="normal" text-anchor="middle" >1</text>
+<text x="128" y="336" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17.5" fill="#B7791F" font-weight="bold" font-style="normal" text-anchor="start" letter-spacing="0.6">EL LENGUAJE COMO DATO</text>
+<text x="880" y="336" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#B7791F" font-weight="bold" font-style="normal" text-anchor="end" letter-spacing="1.5" opacity="0.8">DATOS</text>
+<text x="128" y="368" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="15.5" fill="#2D2A26"><tspan>Web</tspan><tspan fill="#B7791F" font-weight="bold"> → </tspan><tspan>Scraping</tspan><tspan fill="#B7791F" font-weight="bold"> → </tspan><tspan>BeautifulSoup</tspan><tspan fill="#B7791F" font-weight="bold"> → </tspan><tspan>Limpieza</tspan><tspan fill="#B7791F" font-weight="bold"> → </tspan><tspan>Corpus</tspan></text>
+<text x="128" y="400" font-family="Georgia, Times New Roman, serif" font-size="15" fill="#4A443C" font-weight="normal" font-style="italic" text-anchor="start" >¿Cómo llevamos el lenguaje al mundo computacional?</text>
+<circle cx="78" cy="457" r="22" fill="#B7791F" stroke="#FBF7EF" stroke-width="5"/>
+<text x="78" y="464" font-family="Georgia, Times New Roman, serif" font-size="20" fill="#FFFFFF" font-weight="bold" font-style="normal" text-anchor="middle" >2</text>
+<text x="128" y="463" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17.5" fill="#B7791F" font-weight="bold" font-style="normal" text-anchor="start" letter-spacing="0.6">EL LENGUAJE COMO CONTEO</text>
+<text x="880" y="463" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#B7791F" font-weight="bold" font-style="normal" text-anchor="end" letter-spacing="1.5" opacity="0.8">DATOS</text>
+<text x="128" y="495" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="15.5" fill="#2D2A26"><tspan>Frecuencias</tspan><tspan fill="#B7791F" font-weight="bold"> → </tspan><tspan>Nubes de palabras</tspan><tspan fill="#B7791F" font-weight="bold"> → </tspan><tspan>Bag of Words</tspan><tspan fill="#B7791F" font-weight="bold"> → </tspan><tspan>TF-IDF</tspan></text>
+<text x="128" y="527" font-family="Georgia, Times New Roman, serif" font-size="15" fill="#4A443C" font-weight="normal" font-style="italic" text-anchor="start" >¿Podemos representar textos contando palabras?</text>
+<text x="128" y="550" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="15" fill="#2F855A" font-weight="bold" font-style="normal" text-anchor="start" >✓</text>
+<text x="150" y="550" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14" fill="#2F855A" font-weight="normal" font-style="normal" text-anchor="start" >se gana: simplicidad, interpretabilidad</text>
+<text x="128" y="572" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="15" fill="#C53030" font-weight="bold" font-style="normal" text-anchor="start" >✗</text>
+<text x="150" y="572" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14" fill="#C53030" font-weight="normal" font-style="normal" text-anchor="start" >se pierde: orden, sintaxis, significado</text>
+<circle cx="78" cy="628" r="22" fill="#B7791F" stroke="#FBF7EF" stroke-width="5"/>
+<text x="78" y="635" font-family="Georgia, Times New Roman, serif" font-size="20" fill="#FFFFFF" font-weight="bold" font-style="normal" text-anchor="middle" >3</text>
+<text x="128" y="634" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17.5" fill="#B7791F" font-weight="bold" font-style="normal" text-anchor="start" letter-spacing="0.6">EL LENGUAJE COMO OBJETO DE ANÁLISIS</text>
+<text x="880" y="634" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#B7791F" font-weight="bold" font-style="normal" text-anchor="end" letter-spacing="1.5" opacity="0.8">DATOS</text>
+<text x="128" y="666" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="15.5" fill="#2D2A26"><tspan>Minería de textos</tspan><tspan fill="#B7791F" font-weight="bold"> → </tspan><tspan>Clasificación</tspan><tspan fill="#B7791F" font-weight="bold"> → </tspan><tspan>Exploración de corpus</tspan></text>
+<text x="128" y="698" font-family="Georgia, Times New Roman, serif" font-size="15" fill="#4A443C" font-weight="normal" font-style="italic" text-anchor="start" >¿Qué podemos descubrir dentro de una colección de documentos?</text>
+<circle cx="78" cy="755" r="22" fill="#2F855A" stroke="#FBF7EF" stroke-width="5"/>
+<text x="78" y="762" font-family="Georgia, Times New Roman, serif" font-size="20" fill="#FFFFFF" font-weight="bold" font-style="normal" text-anchor="middle" >4</text>
+<text x="128" y="761" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17.5" fill="#2F855A" font-weight="bold" font-style="normal" text-anchor="start" letter-spacing="0.6">EL LENGUAJE COMO ESTRUCTURA LINGÜÍSTICA</text>
+<text x="880" y="761" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#2F855A" font-weight="bold" font-style="normal" text-anchor="end" letter-spacing="1.5" opacity="0.8">LINGÜÍSTICA</text>
+<text x="128" y="793" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="15.5" fill="#2D2A26"><tspan>spaCy</tspan><tspan fill="#2F855A" font-weight="bold"> → </tspan><tspan>Tokenización</tspan><tspan fill="#2F855A" font-weight="bold"> → </tspan><tspan>Lematización</tspan><tspan fill="#2F855A" font-weight="bold"> → </tspan><tspan>POS Tagging</tspan></text>
+<text x="128" y="817" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="15.5" fill="#2D2A26"><tspan></tspan><tspan fill="#2F855A" font-weight="bold"> → </tspan><tspan>NER</tspan><tspan fill="#2F855A" font-weight="bold"> → </tspan><tspan>Pipelines personalizados</tspan></text>
+<text x="128" y="849" font-family="Georgia, Times New Roman, serif" font-size="15" fill="#4A443C" font-weight="normal" font-style="italic" text-anchor="start" >¿Qué sabe la lingüística sobre el lenguaje que los conteos no capturan?</text>
+<circle cx="78" cy="906" r="22" fill="#2F855A" stroke="#FBF7EF" stroke-width="5"/>
+<text x="78" y="913" font-family="Georgia, Times New Roman, serif" font-size="20" fill="#FFFFFF" font-weight="bold" font-style="normal" text-anchor="middle" >5</text>
+<text x="128" y="912" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17.5" fill="#2F855A" font-weight="bold" font-style="normal" text-anchor="start" letter-spacing="0.6">EL MISMO PROBLEMA, TRES PARADIGMAS</text>
+<text x="880" y="912" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#2F855A" font-weight="bold" font-style="normal" text-anchor="end" letter-spacing="1.5" opacity="0.8">LINGÜÍSTICA</text>
+<text x="128" y="944" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="15.5" fill="#2D2A26"><tspan>Análisis de sentimientos: 1. Lexicones</tspan><tspan fill="#2F855A" font-weight="bold"> → </tspan><tspan>2. TF-IDF + Scikit-Learn</tspan></text>
+<text x="128" y="968" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="15.5" fill="#2D2A26"><tspan></tspan><tspan fill="#2F855A" font-weight="bold"> → </tspan><tspan>3. PySentimiento</tspan></text>
+<text x="128" y="1000" font-family="Georgia, Times New Roman, serif" font-size="15" fill="#4A443C" font-weight="normal" font-style="italic" text-anchor="start" >¿Cómo fue cambiando la forma de resolver el mismo problema?</text>
+<circle cx="78" cy="1057" r="22" fill="#2B6CB0" stroke="#FBF7EF" stroke-width="5"/>
+<text x="78" y="1064" font-family="Georgia, Times New Roman, serif" font-size="20" fill="#FFFFFF" font-weight="bold" font-style="normal" text-anchor="middle" >6</text>
+<text x="128" y="1063" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17.5" fill="#2B6CB0" font-weight="bold" font-style="normal" text-anchor="start" letter-spacing="0.6">EL LENGUAJE COMO GEOMETRÍA</text>
+<text x="880" y="1063" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#2B6CB0" font-weight="bold" font-style="normal" text-anchor="end" letter-spacing="1.5" opacity="0.8">REPRESENTACIONES</text>
+<text x="128" y="1095" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="15.5" fill="#2D2A26"><tspan>Word2Vec</tspan><tspan fill="#2B6CB0" font-weight="bold"> → </tspan><tspan>GloVe</tspan><tspan fill="#2B6CB0" font-weight="bold"> → </tspan><tspan>FastText</tspan></text>
+<text x="128" y="1127" font-family="Georgia, Times New Roman, serif" font-size="15" fill="#4A443C" font-weight="normal" font-style="italic" text-anchor="start" >¿Y si el significado fuera una posición en un espacio vectorial?</text>
+<text x="128" y="1150" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="15" fill="#6B645B" font-weight="bold" font-style="normal" text-anchor="start" >·</text>
+<text x="150" y="1150" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14" fill="#6B645B" font-weight="normal" font-style="normal" text-anchor="start" >similitud · distancia · contexto · analogías</text>
+<circle cx="78" cy="1206" r="22" fill="#2B6CB0" stroke="#FBF7EF" stroke-width="5"/>
+<text x="78" y="1213" font-family="Georgia, Times New Roman, serif" font-size="20" fill="#FFFFFF" font-weight="bold" font-style="normal" text-anchor="middle" >7</text>
+<text x="128" y="1212" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17.5" fill="#2B6CB0" font-weight="bold" font-style="normal" text-anchor="start" letter-spacing="0.6">DEL SIGNIFICADO DE PALABRAS AL DE FRASES</text>
+<text x="880" y="1212" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#2B6CB0" font-weight="bold" font-style="normal" text-anchor="end" letter-spacing="1.5" opacity="0.8">REPRESENTACIONES</text>
+<text x="128" y="1244" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="15.5" fill="#2D2A26"><tspan>Sentence Transformers</tspan><tspan fill="#2B6CB0" font-weight="bold"> → </tspan><tspan>Embeddings de frases</tspan><tspan fill="#2B6CB0" font-weight="bold"> → </tspan><tspan>Embeddings de</tspan></text>
+<text x="128" y="1268" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="15.5" fill="#2D2A26"><tspan>documentos</tspan><tspan fill="#2B6CB0" font-weight="bold"> → </tspan><tspan>Similitud del coseno</tspan><tspan fill="#2B6CB0" font-weight="bold"> → </tspan><tspan>Búsqueda semántica</tspan></text>
+<text x="128" y="1300" font-family="Georgia, Times New Roman, serif" font-size="15" fill="#4A443C" font-weight="normal" font-style="italic" text-anchor="start" >¿Podemos comparar significados en lugar de comparar palabras?</text>
+<circle cx="78" cy="1357" r="22" fill="#2B6CB0" stroke="#FBF7EF" stroke-width="5"/>
+<text x="78" y="1364" font-family="Georgia, Times New Roman, serif" font-size="20" fill="#FFFFFF" font-weight="bold" font-style="normal" text-anchor="middle" >8</text>
+<text x="128" y="1363" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17.5" fill="#2B6CB0" font-weight="bold" font-style="normal" text-anchor="start" letter-spacing="0.6">APRENDER ANTES DE LA TAREA</text>
+<text x="880" y="1363" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#2B6CB0" font-weight="bold" font-style="normal" text-anchor="end" letter-spacing="1.5" opacity="0.8">REPRESENTACIONES</text>
+<text x="128" y="1395" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="15.5" fill="#2D2A26"><tspan>Transfer Learning</tspan><tspan fill="#2B6CB0" font-weight="bold"> → </tspan><tspan>Modelos preentrenados</tspan><tspan fill="#2B6CB0" font-weight="bold"> → </tspan><tspan>Fine-Tuning</tspan></text>
+<text x="128" y="1419" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="15.5" fill="#2D2A26"><tspan></tspan><tspan fill="#2B6CB0" font-weight="bold"> → </tspan><tspan>Hugging Face</tspan></text>
+<text x="128" y="1451" font-family="Georgia, Times New Roman, serif" font-size="15" fill="#4A443C" font-weight="normal" font-style="italic" text-anchor="start" >¿Por qué entrenar desde cero si otros modelos ya aprendieron algo</text>
+<text x="128" y="1474" font-family="Georgia, Times New Roman, serif" font-size="15" fill="#4A443C" font-weight="normal" font-style="italic" text-anchor="start" >sobre el lenguaje?</text>
+<circle cx="78" cy="1531" r="22" fill="#6B46C1" stroke="#FBF7EF" stroke-width="5"/>
+<text x="78" y="1538" font-family="Georgia, Times New Roman, serif" font-size="20" fill="#FFFFFF" font-weight="bold" font-style="normal" text-anchor="middle" >9</text>
+<text x="128" y="1537" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17.5" fill="#6B46C1" font-weight="bold" font-style="normal" text-anchor="start" letter-spacing="0.6">EL CAMBIO DE PARADIGMA</text>
+<text x="880" y="1537" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#6B46C1" font-weight="bold" font-style="normal" text-anchor="end" letter-spacing="1.5" opacity="0.8">MODELOS</text>
+<text x="128" y="1569" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="15.5" fill="#2D2A26"><tspan>Attention</tspan><tspan fill="#6B46C1" font-weight="bold"> → </tspan><tspan>Self-Attention</tspan><tspan fill="#6B46C1" font-weight="bold"> → </tspan><tspan>Transformers</tspan></text>
+<text x="128" y="1601" font-family="Georgia, Times New Roman, serif" font-size="15" fill="#4A443C" font-weight="normal" font-style="italic" text-anchor="start" >¿Cómo decidir qué partes del contexto son importantes?</text>
+<circle cx="78" cy="1658" r="22" fill="#6B46C1" stroke="#FBF7EF" stroke-width="5"/>
+<text x="78" y="1665" font-family="Georgia, Times New Roman, serif" font-size="20" fill="#FFFFFF" font-weight="bold" font-style="normal" text-anchor="middle" >10</text>
+<text x="128" y="1664" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17.5" fill="#6B46C1" font-weight="bold" font-style="normal" text-anchor="start" letter-spacing="0.6">EL LENGUAJE COMO PREDICCIÓN</text>
+<text x="880" y="1664" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#6B46C1" font-weight="bold" font-style="normal" text-anchor="end" letter-spacing="1.5" opacity="0.8">MODELOS</text>
+<text x="128" y="1696" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="15.5" fill="#2D2A26"><tspan>GPT-2</tspan><tspan fill="#6B46C1" font-weight="bold"> → </tspan><tspan>Generación de texto</tspan><tspan fill="#6B46C1" font-weight="bold"> → </tspan><tspan>Ajuste fino</tspan><tspan fill="#6B46C1" font-weight="bold"> → </tspan><tspan>Modelos fundacionales</tspan></text>
+<text x="128" y="1728" font-family="Georgia, Times New Roman, serif" font-size="15" fill="#4A443C" font-weight="normal" font-style="italic" text-anchor="start" >¿Qué ocurre cuando un modelo intenta predecir continuamente</text>
+<text x="128" y="1751" font-family="Georgia, Times New Roman, serif" font-size="15" fill="#4A443C" font-weight="normal" font-style="italic" text-anchor="start" >el próximo token?</text>
+<circle cx="78" cy="1808" r="22" fill="#C53030" stroke="#FBF7EF" stroke-width="5"/>
+<text x="78" y="1815" font-family="Georgia, Times New Roman, serif" font-size="20" fill="#FFFFFF" font-weight="bold" font-style="normal" text-anchor="middle" >11</text>
+<text x="128" y="1814" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17.5" fill="#C53030" font-weight="bold" font-style="normal" text-anchor="start" letter-spacing="0.6">MODELOS COMO SERVICIO</text>
+<text x="880" y="1814" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#C53030" font-weight="bold" font-style="normal" text-anchor="end" letter-spacing="1.5" opacity="0.8">SISTEMAS</text>
+<text x="128" y="1846" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="15.5" fill="#2D2A26"><tspan>APIs</tspan><tspan fill="#C53030" font-weight="bold"> → </tspan><tspan>Gemini</tspan><tspan fill="#C53030" font-weight="bold"> → </tspan><tspan>OpenRouter</tspan><tspan fill="#C53030" font-weight="bold"> → </tspan><tspan>Ollama</tspan><tspan fill="#C53030" font-weight="bold"> → </tspan><tspan>Prompt Engineering</tspan></text>
+<text x="128" y="1878" font-family="Georgia, Times New Roman, serif" font-size="15" fill="#4A443C" font-weight="normal" font-style="italic" text-anchor="start" >¿Cómo usamos modelos ya entrenados en aplicaciones reales?</text>
+<circle cx="78" cy="1935" r="22" fill="#C53030" stroke="#FBF7EF" stroke-width="5"/>
+<text x="78" y="1942" font-family="Georgia, Times New Roman, serif" font-size="20" fill="#FFFFFF" font-weight="bold" font-style="normal" text-anchor="middle" >12</text>
+<text x="128" y="1941" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17.5" fill="#C53030" font-weight="bold" font-style="normal" text-anchor="start" letter-spacing="0.6">EL LENGUAJE MÁS EL CONOCIMIENTO</text>
+<text x="880" y="1941" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#C53030" font-weight="bold" font-style="normal" text-anchor="end" letter-spacing="1.5" opacity="0.8">SISTEMAS</text>
+<text x="128" y="1973" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="15.5" fill="#2D2A26"><tspan>Documentos</tspan><tspan fill="#C53030" font-weight="bold"> → </tspan><tspan>Embeddings</tspan><tspan fill="#C53030" font-weight="bold"> → </tspan><tspan>ChromaDB</tspan><tspan fill="#C53030" font-weight="bold"> → </tspan><tspan>Recuperación</tspan><tspan fill="#C53030" font-weight="bold"> → </tspan><tspan>Contexto</tspan><tspan fill="#C53030" font-weight="bold"> → </tspan><tspan>LLM</tspan></text>
+<text x="128" y="1997" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="15.5" fill="#2D2A26"><tspan>= RAG</tspan></text>
+<text x="128" y="2029" font-family="Georgia, Times New Roman, serif" font-size="15" fill="#4A443C" font-weight="normal" font-style="italic" text-anchor="start" >¿Cómo hacemos que el modelo responda con información verificable?</text>
+<circle cx="78" cy="2086" r="22" fill="#C53030" stroke="#FBF7EF" stroke-width="5"/>
+<text x="78" y="2093" font-family="Georgia, Times New Roman, serif" font-size="20" fill="#FFFFFF" font-weight="bold" font-style="normal" text-anchor="middle" >13</text>
+<text x="128" y="2092" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17.5" fill="#C53030" font-weight="bold" font-style="normal" text-anchor="start" letter-spacing="0.6">DEL MODELO AL AGENTE</text>
+<text x="880" y="2092" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#C53030" font-weight="bold" font-style="normal" text-anchor="end" letter-spacing="1.5" opacity="0.8">SISTEMAS</text>
+<text x="128" y="2124" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="15.5" fill="#2D2A26"><tspan>SmolAgents</tspan><tspan fill="#C53030" font-weight="bold"> → </tspan><tspan>Herramientas</tspan><tspan fill="#C53030" font-weight="bold"> → </tspan><tspan>Planificación</tspan><tspan fill="#C53030" font-weight="bold"> → </tspan><tspan>Ejecución</tspan></text>
+<text x="128" y="2156" font-family="Georgia, Times New Roman, serif" font-size="15" fill="#4A443C" font-weight="normal" font-style="italic" text-anchor="start" >¿Qué pasa cuando el modelo ya no sólo responde, sino que actúa?</text>
+<circle cx="78" cy="2229" r="9" fill="#2D2A26"/>
+<text x="128" y="2235" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#6B645B" font-weight="bold" font-style="normal" text-anchor="start" letter-spacing="3">DESTINO FINAL DE LA MATERIA</text>
+<rect x="118" y="2257" width="762" height="150" rx="14" fill="#2D2A26"/>
+<rect x="118" y="2257" width="8" height="150" rx="4" fill="#D69E2E"/>
+<text x="152" y="2313" font-family="Georgia, Times New Roman, serif" font-size="22" fill="#FBF7EF" font-weight="bold" letter-spacing="1.5"><tspan>TEXTO</tspan><tspan fill="#D69E2E"> → </tspan><tspan>REPRESENTACIÓN</tspan><tspan fill="#D69E2E"> → </tspan><tspan>“COMPRENSIÓN”</tspan></text>
+<text x="152" y="2361" font-family="Georgia, Times New Roman, serif" font-size="22" fill="#FBF7EF" font-weight="bold" letter-spacing="1.5"><tspan>GENERACIÓN</tspan><tspan fill="#D69E2E"> → </tspan><tspan>RECUPERACIÓN</tspan><tspan fill="#D69E2E"> → </tspan><tspan>ACCIÓN</tspan></text>
+<text x="128" y="2447" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14.5" fill="#2D2A26" font-weight="bold" font-style="normal" text-anchor="start" >Corpus → Frecuencias → Lingüística → Embeddings → Transformers → LLMs → RAG → Agentes</text>
+<text x="128" y="2485" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12.5" fill="#6B645B" font-weight="normal" font-style="italic" text-anchor="start" >Aparte del camino: laboratorios complementarios sobre lenguaje hablado (reconocimiento de voz y síntesis).</text>
+</svg>

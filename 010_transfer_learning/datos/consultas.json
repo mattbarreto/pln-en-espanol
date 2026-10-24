@@ -1,0 +1,218 @@
+[
+  {
+    "id": "educación_q0",
+    "consulta": "quiero anotarme a un taller literario",
+    "relevantes": [
+      "educación_0"
+    ],
+    "split": "train"
+  },
+  {
+    "id": "educación_q1",
+    "consulta": "qué proyectos muestran en la escuela",
+    "relevantes": [
+      "educación_1"
+    ],
+    "split": "train"
+  },
+  {
+    "id": "educación_q2",
+    "consulta": "necesito ayuda con las pruebas",
+    "relevantes": [
+      "educación_2"
+    ],
+    "split": "train"
+  },
+  {
+    "id": "educación_q3",
+    "consulta": "hay apoyo económico para cursar",
+    "relevantes": [
+      "educación_3"
+    ],
+    "split": "train"
+  },
+  {
+    "id": "educación_q4",
+    "consulta": "busco estudiar historia local",
+    "relevantes": [
+      "educación_4"
+    ],
+    "split": "train"
+  },
+  {
+    "id": "educación_q5",
+    "consulta": "dónde hay una actividad sobre libros",
+    "relevantes": [
+      "educación_5"
+    ],
+    "split": "val"
+  },
+  {
+    "id": "educación_q6",
+    "consulta": "busco aprender a programar",
+    "relevantes": [
+      "educación_6"
+    ],
+    "split": "val"
+  },
+  {
+    "id": "educación_q7",
+    "consulta": "quiero aprender fotografía",
+    "relevantes": [
+      "educación_7"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "educación_q8",
+    "consulta": "busco lecturas para jóvenes",
+    "relevantes": [
+      "educación_8"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "movilidad_q0",
+    "consulta": "por dónde pasa ahora el colectivo",
+    "relevantes": [
+      "movilidad_0"
+    ],
+    "split": "train"
+  },
+  {
+    "id": "movilidad_q1",
+    "consulta": "cuándo sale el tren",
+    "relevantes": [
+      "movilidad_1"
+    ],
+    "split": "train"
+  },
+  {
+    "id": "movilidad_q2",
+    "consulta": "puedo cruzar el puente",
+    "relevantes": [
+      "movilidad_2"
+    ],
+    "split": "train"
+  },
+  {
+    "id": "movilidad_q3",
+    "consulta": "dónde andar en bicicleta",
+    "relevantes": [
+      "movilidad_3"
+    ],
+    "split": "train"
+  },
+  {
+    "id": "movilidad_q4",
+    "consulta": "mi ómnibus está demorado",
+    "relevantes": [
+      "movilidad_4"
+    ],
+    "split": "train"
+  },
+  {
+    "id": "movilidad_q5",
+    "consulta": "dónde espero la línea del barrio",
+    "relevantes": [
+      "movilidad_5"
+    ],
+    "split": "val"
+  },
+  {
+    "id": "movilidad_q6",
+    "consulta": "quiero viajar el sábado en tren",
+    "relevantes": [
+      "movilidad_6"
+    ],
+    "split": "val"
+  },
+  {
+    "id": "movilidad_q7",
+    "consulta": "puedo circular por la avenida",
+    "relevantes": [
+      "movilidad_7"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "movilidad_q8",
+    "consulta": "la parada está oscura",
+    "relevantes": [
+      "movilidad_8"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "salud_q0",
+    "consulta": "necesito una vacuna",
+    "relevantes": [
+      "salud_0"
+    ],
+    "split": "train"
+  },
+  {
+    "id": "salud_q1",
+    "consulta": "busco prevenir enfermedades",
+    "relevantes": [
+      "salud_1"
+    ],
+    "split": "train"
+  },
+  {
+    "id": "salud_q2",
+    "consulta": "necesito atención para mi hijo",
+    "relevantes": [
+      "salud_2"
+    ],
+    "split": "train"
+  },
+  {
+    "id": "salud_q3",
+    "consulta": "quiero medir mi presión",
+    "relevantes": [
+      "salud_3"
+    ],
+    "split": "train"
+  },
+  {
+    "id": "salud_q4",
+    "consulta": "cómo solicito un análisis",
+    "relevantes": [
+      "salud_4"
+    ],
+    "split": "train"
+  },
+  {
+    "id": "salud_q5",
+    "consulta": "qué actividad de salud hay en el barrio",
+    "relevantes": [
+      "salud_5"
+    ],
+    "split": "val"
+  },
+  {
+    "id": "salud_q6",
+    "consulta": "vacunan en establecimientos educativos",
+    "relevantes": [
+      "salud_6"
+    ],
+    "split": "val"
+  },
+  {
+    "id": "salud_q7",
+    "consulta": "busco un turno de control",
+    "relevantes": [
+      "salud_7"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "salud_q8",
+    "consulta": "quiero una charla de prevención",
+    "relevantes": [
+      "salud_8"
+    ],
+    "split": "test"
+  }
+]

@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+salida/
+salida_dominio/
+.ipynb_checkpoints/
+.DS_Store
+_archivo_/

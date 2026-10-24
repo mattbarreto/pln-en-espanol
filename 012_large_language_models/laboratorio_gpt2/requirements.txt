@@ -1,0 +1,23 @@
+# Librerías del laboratorio de ajuste fino con GPT-2: Laboratorio de ajuste fino con GPT-2.
+#
+# Se instalan con:
+#     uv venv --python 3.12
+#     uv pip install -r requirements.txt
+#
+# Cada línea es una librería y la versión mínima que necesitamos.
+# El ">=" quiere decir "esta versión o una más nueva".
+
+torch>=2.6              # motor de entrenamiento y generación (PyTorch)
+transformers>=5.0,<6.0  # carga el modelo, el tokenizador y genera texto
+numpy>=1.26             # cuentas con vectores
+pandas>=2.2             # tablas del corpus, métricas y muestras
+matplotlib>=3.9         # gráficos
+ipywidgets>=8.1,<9.0    # controles interactivos dentro del cuaderno
+ipykernel>=6.29         # correr el cuaderno dentro de VS Code
+pypdf>=5.0              # leer PDF (opcional: solo si cargás un PDF propio)
+ebooklib>=0.18          # leer EPUB (opcional: solo si cargás un EPUB propio)
+beautifulsoup4>=4.12    # limpiar el HTML de un EPUB (opcional)
+
+# El MODELO no se instala con pip ni va acá:
+#   - DeepESP/gpt2-spanish (unos 250 MB en el caché de Hugging Face)
+# Se baja aparte, y NO en clase: ver ANTES_DE_LA_CLASE.md

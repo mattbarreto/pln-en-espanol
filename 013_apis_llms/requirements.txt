@@ -1,0 +1,23 @@
+# Librerias de la unidad 013: Consumo de modelos mediante APIs.
+#
+# Se instalan con:
+#     uv venv --python 3.12
+#     uv pip install -r requirements.txt
+#
+# Cada linea es una libreria y la version minima con la que se probo.
+
+ollama>=0.6                 # cliente de modelos locales
+google-genai>=2.33          # cliente de Gemini (plan gratuito)
+google-search-results>=2.4  # SerpAPI: busqueda web (plan gratuito)
+pydantic>=2.14              # esquemas y validacion de respuestas
+jinja2>=3.1                 # plantillas de pedidos
+python-dotenv>=1.2          # leer claves desde .env
+requests>=2.34              # pedidos HTTP al servidor local
+pandas>=3.1                 # tablas de resultados
+matplotlib>=3.11            # graficos compartidos del curso
+numpy>=2.0                  # lo usan los graficos compartidos
+ipykernel>=6.29             # correr los cuadernos dentro de VS Code
+nbformat>=5.10              # leer los cuadernos
+nbconvert>=7.16             # ejecutar los cuadernos de arriba a abajo
+
+# Los MODELOS no se instalan con pip: ver ANTES_DE_LA_CLASE.md.

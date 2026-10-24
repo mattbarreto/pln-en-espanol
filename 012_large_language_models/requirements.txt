@@ -1,0 +1,14 @@
+# Pieza local de texto — Unidad 012
+# Laboratorio de PLN: Analitica, Textos y Cultura — IFTS24
+#
+# Instalar con:
+#   uv pip install -r requirements.txt
+
+tiktoken>=0.8           # tokenizador BPE de GPT-2
+numpy>=2.0              # matriz sintetica de posicion
+matplotlib>=3.9         # fichas, barras y mapa de calor
+ipykernel>=6.29         # correr el cuaderno dentro de VS Code
+nbconvert>=7.16         # ejecutar y verificar el cuaderno de arriba a abajo
+
+# El laboratorio GPT-2 tiene su propio requirements.txt y su propio entorno.
+

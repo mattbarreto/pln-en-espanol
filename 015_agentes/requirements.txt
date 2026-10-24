@@ -1,0 +1,27 @@
+# Librerias de la unidad 015: Agentes.
+#
+# Se instalan con:
+#     uv venv --python 3.12
+#     uv pip install -r requirements.txt
+#
+# Cada linea es una libreria y la version minima con la que se probo.
+
+smolagents[litellm]>=1.26        # agentes de codigo y herramientas
+mcp>=2.0                         # lo importa ToolCallingAgent (smolagents 1.26)
+ollama>=0.6                      # modelo local y llamada nativa a herramientas
+google-genai>=2.33               # Gemini (plan gratuito, opcional)
+google-search-results>=2.4       # SerpAPI: busqueda web (plan gratuito, opcional)
+sentence-transformers>=6.2       # embeddings de la herramienta de politicas
+langchain-text-splitters>=1.0    # cortar las politicas en fragmentos
+pypdf>=6.0                       # leer el PDF de politicas
+numpy>=2.0                       # ranking de la busqueda
+pandas>=3.0                      # tablas de resultados
+matplotlib>=3.9                  # graficos compartidos del curso
+python-dotenv>=1.0               # leer claves desde .env
+requests>=2.32                   # comprobar el servidor local
+ipykernel>=6.29                  # correr los cuadernos dentro de VS Code
+ipywidgets>=8.1                  # evita avisos de barras de progreso
+nbformat>=5.10                   # leer los cuadernos
+nbconvert>=7.16                  # ejecutar los cuadernos de arriba a abajo
+
+# Los MODELOS no se instalan con pip: ver ANTES_DE_LA_CLASE.md.

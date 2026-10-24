@@ -1,0 +1,10 @@
+# Extensiones 05 y 06: interfaces con Gradio.
+#
+# Se instalan JUNTO con las de la unidad, en un solo comando, con el entorno
+# activo:
+#     uv pip install -r requirements.txt -r extensiones/requirements-gradio.txt
+#
+# Instalarlas por separado puede subir huggingface-hub a una version que
+# transformers<5.0 no acepta (ImportError al importar transformers).
+
+gradio>=5.0    # interfaces web locales para funciones y modelos

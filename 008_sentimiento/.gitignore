@@ -1,0 +1,19 @@
+# Material docente — nunca sube al repo público
+000_guion.md
+*_guion.md
+_docente/
+
+# Entornos virtuales
+.venv/
+__pycache__/
+*.pyc
+
+# Cuadernos
+.ipynb_checkpoints/
+_ejecutados/
+
+# Archivos generados por el cuaderno 03
+salidas/
+
+# Sistema operativo
+.DS_Store

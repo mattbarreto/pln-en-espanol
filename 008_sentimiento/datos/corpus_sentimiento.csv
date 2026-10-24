@@ -1,0 +1,34 @@
+id,partición,texto,etiqueta_referencia
+E01,entrenamiento,La atención fue excelente.,POS
+E02,entrenamiento,El trámite resultó sencillo.,POS
+E03,entrenamiento,La plataforma es útil.,POS
+E04,entrenamiento,La explicación fue clara.,POS
+E05,entrenamiento,El servicio funciona bien.,POS
+E06,entrenamiento,La respuesta fue rápida y amable.,POS
+E07,entrenamiento,Estoy conforme con el resultado.,POS
+E08,entrenamiento,La organización fue buena.,POS
+E09,entrenamiento,La atención fue pésima.,NEG
+E10,entrenamiento,El trámite resultó complicado.,NEG
+E11,entrenamiento,La plataforma es inútil.,NEG
+E12,entrenamiento,La explicación fue confusa.,NEG
+E13,entrenamiento,El servicio funciona mal.,NEG
+E14,entrenamiento,La respuesta fue lenta y desagradable.,NEG
+E15,entrenamiento,Estoy disconforme con el resultado.,NEG
+E16,entrenamiento,La organización fue mala.,NEG
+E17,entrenamiento,La oficina abre a las ocho.,NEU
+E18,entrenamiento,El trámite requiere un formulario.,NEU
+E19,entrenamiento,La plataforma tiene tres secciones.,NEU
+E20,entrenamiento,La explicación está en el documento.,NEU
+E21,entrenamiento,El servicio atiende de lunes a viernes.,NEU
+E22,entrenamiento,La respuesta llegó por correo.,NEU
+E23,entrenamiento,El resultado se publica mañana.,NEU
+E24,entrenamiento,La organización anunció una reunión.,NEU
+P01,prueba,Recibí una atención amable.,POS
+P02,prueba,El documento es claro y útil.,POS
+P03,prueba,Estoy conforme: el trámite fue sencillo.,POS
+P04,prueba,La atención fue desagradable.,NEG
+P05,prueba,El documento es confuso e inútil.,NEG
+P06,prueba,El trámite fue lento y complicado.,NEG
+P07,prueba,La oficina atiende los martes.,NEU
+P08,prueba,El documento tiene cuatro páginas.,NEU
+P09,prueba,El trámite se realiza por correo.,NEU

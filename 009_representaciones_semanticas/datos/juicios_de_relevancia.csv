@@ -1,0 +1,84 @@
+id_consulta,id_fragmento,relevancia,justificacion,discutible
+C01,la-mosca-que-sonaba-que-era-un-aguila-01,2,,no
+C01,la-mosca-que-sonaba-que-era-un-aguila-02,2,Lamenta no ser águila.,no
+C01,la-rana-que-queria-ser-una-rana-autentica-01,2,,no
+C01,la-rana-que-queria-ser-una-rana-autentica-02,2,,no
+C01,la-rana-que-queria-ser-una-rana-autentica-03,2,,no
+C01,la-jirafa-01,1,Las jirafas 'quisieron ir por encima de su realidad corporal'; es un deseo atribuido a la especie.,sí
+C01,el-rinoceronte-2-05,1,El rinoceronte se transfigura en unicornio; no es un deseo propio.,sí
+C02,una-plaza-en-el-cielo-01,2,Luis muere en vísperas de la boda.,no
+C02,una-plaza-en-el-cielo-02,1,Continúa la espera de Etelvina.,sí
+C02,una-plaza-en-el-cielo-03,1,Cierra la historia.,sí
+C02,la-foto-01,2,Paula se muere durante la luna de miel.,no
+C02,la-foto-02,1,Consecuencia de la muerte de Paula.,sí
+C02,danza-macabra-iii-01,1,"Noche de bodas, pero no muere nadie en el fragmento.",sí
+C03,el-suicida-01,2,,no
+C03,el-suicida-02,2,,no
+C03,el-suicida-03,2,Intenta de nuevo; cambia el tono con la familia envenenada.,sí
+C03,el-suicida-04,2,,no
+C03,el-suicida-05,2,,no
+C03,suicidio-2-01,2,Razona sobre cómo suicidarse.,no
+C03,suicidio-2-02,1,Sigue el razonamiento filosófico.,sí
+C03,suicidio-2-03,1,,sí
+C03,suicidio-2-04,1,Concluye que ya no se deseará morir.,sí
+C03,danza-macabra-iii-01,1,El padre aparece ahorcado; no hay intento del protagonista.,sí
+C04,tres-cocineros-y-un-huevo-frito-01,2,,no
+C04,tres-cocineros-y-un-huevo-frito-02,2,,no
+C04,tres-cocineros-y-un-huevo-frito-03,2,,no
+C04,tres-cocineros-y-un-huevo-frito-04,2,,no
+C04,la-cocinera-01,2,,no
+C04,la-cocinera-07,2,,no
+C04,la-cocinera-02,1,,sí
+C04,la-cocinera-06,1,Se come; la cocinera no actúa.,sí
+C04,el-cocinero-02,1,"Se cocinan palabras, no comida.",sí
+C04,el-cocinero-03,1,"Se cocinan palabras, no comida.",sí
+C04,el-cocinero-05,1,"Se cocinan palabras, no comida.",sí
+C04,almuerzos-01,1,Escena de restaurante; nadie cocina.,sí
+C04,almuerzos-02,1,,sí
+C05,la-melancolia-del-viajero-03,2,Penélope ya no era la que él había dejado.,no
+C05,la-melancolia-del-viajero-04,2,,no
+C05,la-melancolia-del-viajero-05,2,,no
+C05,la-melancolia-del-viajero-01,1,Plantea la melancolía del regreso en general.,sí
+C05,la-melancolia-del-viajero-02,1,,sí
+C05,la-melancolia-del-viajero-06,1,,sí
+C05,romance-viejo-01,1,La casa se deshace; no hay regreso.,sí
+C05,romance-viejo-02,1,,sí
+C05,romance-viejo-03,1,,sí
+C05,en-el-frente-01,2,Vecinos que vuelven discuten dónde estaba la iglesia; el fragmento es de guerra.,sí
+C06,parabola-de-cervantes-y-de-quijote-01,2,,no
+C06,parabola-de-cervantes-y-de-quijote-02,2,,no
+C06,parabola-de-cervantes-y-de-quijote-03,1,,sí
+C06,un-problema-02,2,"Alonso Quijano, lector de historias fabulosas.",no
+C06,un-problema-01,1,,sí
+C06,un-problema-03,1,,sí
+C06,alguien-sonara-01,1,Menciona a Alonso Quijano y sus libros de pasada.,sí
+C07,del-perfecto-gobernante-01,2,,no
+C07,del-perfecto-gobernante-03,2,,no
+C07,del-perfecto-gobernante-04,2,,no
+C07,del-perfecto-gobernante-02,1,Ministros; el poder se muestra de modo indirecto.,sí
+C07,la-salvacion-01,2,,no
+C07,la-salvacion-02,2,,no
+C07,los-dos-reyes-y-los-dos-laberintos-02,2,,no
+C07,los-dos-reyes-y-los-dos-laberintos-03,2,,no
+C07,los-dos-reyes-y-los-dos-laberintos-04,2,,no
+C07,los-dos-reyes-y-los-dos-laberintos-01,1,,sí
+C07,el-entierro-de-henri-christophe-01,1,El rey ya está muerto; el gobernador dispone del cadáver.,sí
+C07,el-entierro-de-henri-christophe-03,1,,sí
+C08,instrucciones-para-llorar-01,2,,no
+C08,instrucciones-para-llorar-02,2,,no
+C08,instrucciones-para-llorar-03,2,,no
+C08,instrucciones-para-subir-una-escalera-01,2,,no
+C08,instrucciones-para-subir-una-escalera-02,2,,no
+C08,instrucciones-para-subir-una-escalera-03,2,,no
+C08,instrucciones-para-subir-una-escalera-04,2,,no
+C08,instrucciones-para-subir-una-escalera-05,2,,no
+C08,instrucciones-para-subir-una-escalera-06,1,Cierra la instrucción en una oración.,sí
+C08,conservacion-de-los-recuerdos-01,1,"Procedimiento descripto, sin forma de instrucción al lector.",sí
+C09,soledad-mutis-01,2,,no
+C09,soledad-mutis-02,2,,no
+C09,soledad-mutis-03,1,Amanece; el miedo ya pasó.,sí
+C09,el-eclipse-01,1,"Perdido en la selva, pero resignado más que asustado.",sí
+C10,la-muerte-anderson-03,2,,no
+C10,la-muerte-anderson-04,2,,no
+C10,la-muerte-anderson-02,1,Diálogo previo a la presentación.,sí
+C10,la-muerte-anderson-01,1,,sí
