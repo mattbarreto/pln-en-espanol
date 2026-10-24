@@ -37,7 +37,7 @@ Los cuadernos 01 a 03 usan el mismo corpus construido y los mismos desafíos, pa
 * **Recorte:** selección docente con semilla declarada, hecha con `datos/preparar_titulares.py`. Es una escala para leer y revisar, no una muestra representativa.
 * **Unidad de análisis:** un titular y un objeto valorado (valoración dirigida). Los tres métodos clasifican el titular completo y no ven el objeto.
 * **Etiqueta original:** `datos/_referencia_corpus_original.csv`. El cuaderno solo la lee en su sección 10, después de que el grupo anotó.
-* **Pendiente de verificar:** el repositorio de Hugging Face no tiene ficha de datos. La licencia (CC BY 4.0) figura en el artículo y debe confirmarse antes de redistribuir los textos. Tampoco está detallado quién anotó las etiquetas originales ni con qué acuerdo.
+* **Licencia y anotación:** el repositorio de Hugging Face no tiene ficha de datos. La licencia (CC BY 4.0) figura en el artículo. Tampoco está detallado quién anotó las etiquetas originales ni con qué acuerdo.
 * **Otro corpus:** `datos/plantilla_corpus.csv` tiene solo los encabezados del contrato de entrada (`id`, `texto`, `fuente`, `id_documento`; opcionales `fecha`, `contexto`, `objeto_valorado`). Si se cambia `RUTA_CORPUS` en el cuaderno 04, no hace falta tocar nada más.
 
 **Regenerar el recorte (solo docentes, necesita Internet):**

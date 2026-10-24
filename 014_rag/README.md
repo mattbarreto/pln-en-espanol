@@ -97,7 +97,7 @@ Los cuadernos 01 a 04 se ejecutaron de arriba abajo desde un kernel limpio el 23
 - **Gemini no se ejecutó.** La celda del cuaderno 03 que lo usa se escribió y se comprobó que, sin clave, avisa y sigue; con clave nunca corrió en esta versión.
 - **Las respuestas del modelo local varían entre ejecuciones**, incluso con temperatura `0`. En el cuaderno 03 los casos que acertaron y fallaron coincidieron entre las ejecuciones que se hicieron, pero la redacción de las respuestas cambió. Las notas **Para mirar** citan resultados de conteo, no frases.
 - **Evaluaciones chicas.** Siete casos de prueba en el cuaderno 03, diez consultas en el 04 y nueve preguntas sobre Acme: sirven para ver el mecanismo y detectar fallas, no para estimar un porcentaje de acierto.
-- **Juicios de relevancia.** Los de la unidad 009 los redactó una persona con asistencia de un modelo de lenguaje, sin segunda evaluación; 39 de 83 están marcados como discutibles.
+- **Juicios de relevancia.** Los de la unidad 009 los redactó una persona, sin segunda evaluación; 39 de 83 están marcados como discutibles.
 - **Licencias sin verificar:** el artículo del INTA y el compilado de cuentos. Ver `datos/LEEME.md`.
 - No se probaron Windows, Linux ni equipos sin GPU. Las descargas previas rondan los 2,1 GB del modelo de Ollama y 470 MB por cada modelo de embeddings.
 

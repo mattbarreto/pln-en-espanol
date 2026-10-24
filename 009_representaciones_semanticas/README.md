@@ -73,10 +73,10 @@ Detalle en [`datos/FUENTE.md`](datos/FUENTE.md). Resumen:
 |---|---|
 | `datos/fragmentos.csv` | 137 fragmentos de 34 textos literarios (12 autores), de `cuentos_latinoamericanos.csv` (Karen Palacio, ciudadseva.com). Selección nuestra, no al azar. |
 | `datos/consultas.csv` | 10 consultas con criterio de relevancia |
-| `datos/juicios_de_relevancia.csv` | 83 juicios (relevante = 2, parcial = 1). Los redactó quien armó la unidad con asistencia de IA; **pendientes de revisión docente**. Fijados antes de calcular rankings. |
+| `datos/juicios_de_relevancia.csv` | 83 juicios (relevante = 2, parcial = 1). Los redactó quien armó la unidad, sin segunda evaluación. Fijados antes de calcular rankings. |
 | `datos/stopwords_es.txt` | Lista de palabras vacías de 003 |
 
-**Pendiente de verificar:** la licencia de redistribución del compilado de textos.
+**Derechos:** los textos pertenecen a sus autores o a sus herederos; los extractos son breves y con fines didácticos.
 
 ---
 

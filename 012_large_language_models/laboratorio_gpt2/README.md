@@ -54,7 +54,7 @@ En la estación 2 se transforman los textos del **corpus**. Es una decisión sob
 ## Datos de la unidad
 
 - **Corpus principal:** 26 cuentos de Horacio Quiroga (dominio público), divididos en `adulto` (18) e `infantil` (8). Procedencia y limitaciones en [`datos/quiroga/FUENTE.md`](datos/quiroga/FUENTE.md). Los cuentos `adulto_07` e `infantil_04` quedan reservados para validación.
-- **Textos propios:** 4 textos con derechos vigentes, solo para uso local. [`datos/textos/LEEME.md`](datos/textos/LEEME.md) explica las condiciones y lo que falta confirmar.
+- **Textos propios:** 4 textos con derechos vigentes, solo para uso local. [`datos/textos/LEEME.md`](datos/textos/LEEME.md) explica las condiciones.
 - **Modelo:** `DeepESP/gpt2-spanish` (MIT, 124 millones de parámetros). Ficha completa y criterio de elección en [`docs/MODELO.md`](docs/MODELO.md).
 
 Para usar **tu corpus**, poné los archivos `.txt`, `.pdf` o `.epub` en una carpeta de la unidad y cargalos con `documento_desde_archivo(...)` en la estación 2. La celda de carga también suma un **texto de práctica inventado** (fuera del corpus) para probar limpiezas con cambios visibles.

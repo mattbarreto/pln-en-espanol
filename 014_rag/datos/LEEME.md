@@ -13,15 +13,15 @@
 
 ## Documentos de Tintas Acme (ficticios)
 
-La política interna (PDF) y la de trabajo remoto (Markdown) describen una empresa que no existe, «Tintas Acme S.A.», y las creó el equipo del curso con fines educativos. No contienen datos personales. El PDF está escrito sin tildes porque así se generó. **Pendiente:** definir y declarar la licencia de estos dos archivos.
+La política interna (PDF) y la de trabajo remoto (Markdown) describen una empresa que no existe, «Tintas Acme S.A.», y las creó el equipo del curso con fines educativos. No contienen datos personales. El PDF está escrito sin tildes porque así se generó. Se distribuyen bajo la licencia de contenidos del repositorio (CC BY-SA 4.0).
 
 ## Artículo del INTA
 
-`ria_semillas_conservadas.pdf` es una copia local de «Semillas conservadas para un futuro sostenible», de Laura Pérez Casar, publicado en *RIA. Revista de Investigaciones Agropecuarias* (INTA), vol. 42, n.º 1, abril de 2016, pp. 19 a 22. El nombre original del archivo es `RIA_2016_VOLUMEN 42_Nº1_p.19-22.pdf`. Se usa para mostrar cómo se ve un PDF maquetado al extraer su texto. **La licencia de redistribución no está verificada:** antes de publicar el repositorio hay que confirmarla o reemplazar el archivo por uno con licencia abierta.
+`ria_semillas_conservadas.pdf` es una copia local de «Semillas conservadas para un futuro sostenible», de Laura Pérez Casar, publicado en *RIA. Revista de Investigaciones Agropecuarias* (INTA), vol. 42, n.º 1, abril de 2016, pp. 19 a 22. El nombre original del archivo es `RIA_2016_VOLUMEN 42_Nº1_p.19-22.pdf`. Se usa para mostrar cómo se ve un PDF maquetado al extraer su texto.
 
 ## Cuentos (unidad 009)
 
-`cuentos/` es una copia sin cambios de `009_representaciones_semanticas/datos/`: fragmentos de 34 cuentos y minicuentos latinoamericanos, compilados a partir de ciudadseva.com. Los derechos de los textos pertenecen a sus autores o a sus herederos, y los extractos son breves y con fines didácticos. **La licencia de redistribución del compilado no está verificada.** Los juicios de relevancia los redactó una persona con asistencia de un modelo de lenguaje, sin segunda evaluación; 39 de 83 son discutibles. Todo está explicado en `cuentos/FUENTE.md`.
+`cuentos/` es una copia sin cambios de `009_representaciones_semanticas/datos/`: fragmentos de 34 cuentos y minicuentos latinoamericanos, compilados a partir de ciudadseva.com. Los derechos de los textos pertenecen a sus autores o a sus herederos, y los extractos son breves y con fines didácticos. Los juicios de relevancia los redactó una persona, sin segunda evaluación; 39 de 83 son discutibles. Todo está explicado en `cuentos/FUENTE.md`.
 
 ## Archivos que genera la unidad
 

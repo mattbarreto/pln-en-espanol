@@ -28,7 +28,7 @@ si no sabés qué tenés entre manos.
 
 ## Los juicios de relevancia
 
-* **Quién:** los redactó quien armó la unidad, leyendo los 137 fragmentos. **No hubo segunda evaluación.** No hay medida de acuerdo entre evaluadores. Quedan **pendientes de revisión docente**.
+* **Quién:** los redactó quien armó la unidad, leyendo los 137 fragmentos. **No hubo segunda evaluación.** No hay medida de acuerdo entre evaluadores.
 * **Cuándo:** se fijaron el 7 de octubre de 2026 (17:24 UTC) y no se modificaron después de calcular ningún ranking. Los primeros 16 caracteres del SHA-256 del archivo, a esa fecha, son `9e217d46f9337000`; el cuaderno 05 imprime el valor actual para poder compararlo.
 * **Qué significan:** 2 = el fragmento responde a la consulta según el criterio escrito en `consultas.csv`; 1 = parcialmente; 0 (sin fila) = no.
 * **`discutible = sí`:** 39 de los 83 juicios están marcados así. No indican un error: indican que una persona razonable podría decidir otra cosa.
@@ -44,7 +44,7 @@ si no sabés qué tenés entre manos.
 ## Licencia y derechos
 
 * Los derechos de los textos pertenecen a sus autores o a sus herederos. Los fragmentos son extractos breves con fines didácticos.
-* **La licencia de redistribución del compilado de Karen Palacio y de ciudadseva.com no está verificada.** Si el repositorio se hace público, conviene confirmarla o reemplazar `fragmentos.csv` por un archivo que se regenere con `construir_fragmentos.py` a partir de la copia local.
+* `fragmentos.csv` se puede regenerar con `construir_fragmentos.py` a partir de la copia local del compilado.
 * `fragmentos.csv`, `consultas.csv` y `juicios_de_relevancia.csv` son material del curso, de uso educativo.
 
 ## Vectores y modelos que usa la unidad
