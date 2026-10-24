@@ -55,5 +55,5 @@ Desde esta carpeta:
 
 En Windows, activá con .venv\Scripts\Activate.ps1. Abrí esta carpeta en VS Code, elegí el kernel
 del entorno y ejecutá el cuaderno de arriba hacia abajo. No hace falta instalar JupyterLab ni
-notebook.
+notebook. Pasos completos, para las dos piezas, en [ANTES_DE_LA_CLASE.md](ANTES_DE_LA_CLASE.md).
 

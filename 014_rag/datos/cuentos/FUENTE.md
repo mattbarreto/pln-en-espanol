@@ -11,11 +11,11 @@ si no sabés qué tenés entre manos.
 | `consultas.csv` | 10 consultas con su tipo y su criterio de relevancia. |
 | `juicios_de_relevancia.csv` | 83 juicios: `id_consulta`, `id_fragmento`, `relevancia` (2 = relevante, 1 = parcial), `justificacion`, `discutible`. Lo que no figura vale 0. |
 | `stopwords_es.txt` | Lista de 260 palabras vacías de la unidad 003 (`003_text_mining/practico/datos/`). |
-| `construir_fragmentos.py` | Regenera `fragmentos.csv` a partir de `cuentos_latinoamericanos.csv`. |
+| `construir_fragmentos.py` | En la unidad 009: regenera `fragmentos.csv` a partir de `cuentos_latinoamericanos.csv`. |
 
 ## Procedencia de los textos
 
-* **Compilado:** `cuentos_latinoamericanos.csv`, de Karen Palacio (<https://github.com/karen-pal/borges>), que a su vez proviene de ciudadseva.com. Es la misma copia que usan las unidades 004 y 006 (`006_sintesis/datos/`).
+* **Compilado:** `cuentos_latinoamericanos.csv`, de Karen Palacio (<https://github.com/karen-pal/borges>), que a su vez proviene de ciudadseva.com. Es la misma copia que usan las unidades 004 y 006; la unidad 009 la incluye en `datos/` para poder regenerar `fragmentos.csv`.
 * **Selección:** 34 textos que elegimos nosotros entre los cuentos y minicuentos de entre 140 y 420 palabras que no tenían un duplicado exacto, para cubrir temas que permitieran armar consultas con relevancia comprobable. **No es una muestra al azar.** Los criterios se pueden leer en `construir_fragmentos.py`.
 * **Fecha de acceso:** octubre de 2026 (copia local ya existente en la unidad 006). No volvimos a consultar ciudadseva.com.
 * **Cada fragmento** guarda en `fuente` el enlace del texto original.

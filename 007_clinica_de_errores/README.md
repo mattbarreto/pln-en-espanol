@@ -19,7 +19,7 @@ El criterio de agrupación es **externo**: lo define el volumen y su destinatari
 
 Para correrlo hacen falta, en la misma carpeta, `corpus.jsonl`, `utils.py` y
 `utils_visualizacion.py`. En Colab, subí esos archivos junto con el cuaderno.
-Dependencias en `requirements.txt` (`uv pip install -r requirements.txt`).
+Dependencias en `requirements.txt` (`uv pip install -r requirements.txt`). Pasos de preparación en [ANTES_DE_LA_CLASE.md](ANTES_DE_LA_CLASE.md).
 
 ## Reproducir
 ```

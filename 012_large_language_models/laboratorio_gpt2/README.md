@@ -6,7 +6,7 @@ Matías Barreto, 2026
 
 Un laboratorio interactivo alrededor de una pregunta abierta: **¿podemos hacer que un modelo escriba un poco más como el autor que elegimos?** Se **ajusta** (*fine-tuning*) un modelo de lenguaje causal ya entrenado con un corpus propio, y se examina qué cambia en lo que genera y qué evidencia hay de ese cambio. El recorrido invita a probar: **elegir, cambiar un control, mirar, comparar y registrar**; el código siempre está disponible. No entrena un modelo desde cero ni configura un GPT dentro de ChatGPT.
 
-Es la segunda pieza central de la unidad [Large Language Models](../README.md). Sigue a [Del texto de Borges al próximo token](../01_texto_a_proximo_token.ipynb) y retoma la adaptación de dominio de [transfer learning](../../010_transfer_learning/README.md).
+Es la segunda pieza central de la unidad [Large Language Models](../README.md). Sigue a [Del texto de Borges al próximo token](../01_texto_a_proximo_token.ipynb) y retoma la adaptación de dominio de [transfer learning](https://github.com/mattbarreto/pln-en-espanol/tree/main/010_transfer_learning).
 
 ---
 

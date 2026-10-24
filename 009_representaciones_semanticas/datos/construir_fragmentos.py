@@ -21,7 +21,7 @@ from pathlib import Path
 import pandas as pd
 
 CARPETA_DE_DATOS = Path(__file__).resolve().parent
-RUTA_POR_DEFECTO = CARPETA_DE_DATOS.parent.parent / "006_sintesis" / "datos" / "cuentos_latinoamericanos.csv"
+RUTA_POR_DEFECTO = CARPETA_DE_DATOS / "cuentos_latinoamericanos.csv"
 RUTA_DE_SALIDA = CARPETA_DE_DATOS / "fragmentos.csv"
 
 PREFIJO_DE_ENLACE = "https://ciudadseva.com/texto/"

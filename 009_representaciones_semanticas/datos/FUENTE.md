@@ -15,7 +15,7 @@ si no sabés qué tenés entre manos.
 
 ## Procedencia de los textos
 
-* **Compilado:** `cuentos_latinoamericanos.csv`, de Karen Palacio (<https://github.com/karen-pal/borges>), que a su vez proviene de ciudadseva.com. Es la misma copia que usan las unidades 004 y 006 (`006_sintesis/datos/`).
+* **Compilado:** `cuentos_latinoamericanos.csv`, de Karen Palacio (<https://github.com/karen-pal/borges>), que a su vez proviene de ciudadseva.com. Es la misma copia que usan las unidades 004 y 006; la unidad 009 la incluye en `datos/` para poder regenerar `fragmentos.csv`.
 * **Selección:** 34 textos que elegimos nosotros entre los cuentos y minicuentos de entre 140 y 420 palabras que no tenían un duplicado exacto, para cubrir temas que permitieran armar consultas con relevancia comprobable. **No es una muestra al azar.** Los criterios se pueden leer en `construir_fragmentos.py`.
 * **Fecha de acceso:** octubre de 2026 (copia local ya existente en la unidad 006). No volvimos a consultar ciudadseva.com.
 * **Cada fragmento** guarda en `fuente` el enlace del texto original.
