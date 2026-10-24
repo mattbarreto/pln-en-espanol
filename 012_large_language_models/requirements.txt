@@ -4,8 +4,9 @@
 # Instalar con:
 #   uv pip install -r requirements.txt
 
-tiktoken>=0.8           # tokenizador BPE de GPT-2
-numpy>=2.0              # matriz sintetica de posicion
+torch>=2.6              # calculo del modelo (probabilidades del proximo token)
+transformers>=4.48,<5.0 # tokenizador y pesos de GPT-2 en espanol
+numpy>=2.0              # tabla de posiciones y probabilidades
 matplotlib>=3.9         # fichas, barras y mapa de calor
 ipykernel>=6.29         # correr el cuaderno dentro de VS Code
 nbconvert>=7.16         # ejecutar y verificar el cuaderno de arriba a abajo

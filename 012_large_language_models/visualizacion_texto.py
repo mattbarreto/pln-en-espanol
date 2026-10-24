@@ -4,8 +4,9 @@ from collections.abc import Sequence
 
 import matplotlib.pyplot as plt
 import numpy as np
-from matplotlib.colors import LinearSegmentedColormap, Normalize
+from matplotlib.colors import LinearSegmentedColormap, Normalize, TwoSlopeNorm
 from matplotlib.patches import FancyBboxPatch
+from matplotlib.ticker import FuncFormatter
 
 AZUL = "#2a78d6"
 NARANJA = "#eb6834"
@@ -90,6 +91,19 @@ def dibujar_fichas(
         plt.show()
 
 
+def _con_coma(valor: float, posicion: int) -> str:
+    """Escribe una marca de eje con coma decimal.
+
+    Args:
+        valor: Valor de la marca.
+        posicion: Lugar de la marca; matplotlib lo pasa y no se usa.
+
+    Returns:
+        El valor como texto, con coma.
+    """
+    return f"{valor:g}".replace(".", ",")
+
+
 def dibujar_barras(
     nombres: Sequence[str],
     valores: Sequence[float],
@@ -111,9 +125,14 @@ def dibujar_barras(
         ejes.barh(posiciones, datos, color=color)
         ejes.set_yticks(posiciones, nombres)
         ejes.invert_yaxis()
+        maximo = float(datos.max()) or 1.0
+        decimales = 3 if maximo < 0.1 else 2
         for lugar in posiciones:
-            ejes.text(datos[lugar] + 0.01, lugar, f"{datos[lugar]:.2f}",
-                       va="center", fontsize=9)
+            escrito = f"{datos[lugar]:.{decimales}f}".replace(".", ",")
+            ejes.text(datos[lugar] + 0.015 * maximo, lugar, escrito,
+                      va="center", fontsize=9, color=TINTA_SUAVE)
+        ejes.set_xlim(0, maximo * 1.15)
+        ejes.xaxis.set_major_formatter(FuncFormatter(_con_coma))
         ejes.set_title(titulo)
         ejes.spines["left"].set_visible(False)
         ejes.tick_params(axis="y", length=0)
@@ -189,3 +208,48 @@ def dibujar_ciclo() -> None:
         figura.tight_layout()
         plt.show()
 
+
+def dibujar_mapa_con_signo(
+    matriz: Sequence[Sequence[float]],
+    filas: Sequence[str],
+    columnas: Sequence[str],
+    titulo: str,
+    decimales: int = 3,
+) -> None:
+    """Dibuja una matriz con valores positivos y negativos, con su numero.
+
+    Naranja es positivo y azul, negativo, como en la unidad 011.
+
+    Args:
+        matriz: Valores ya calculados por fila y columna.
+        filas: Rotulos de fila.
+        columnas: Rotulos de columna.
+        titulo: Titulo del grafico.
+        decimales: Decimales que se escriben en cada celda.
+    """
+    datos = np.asarray(matriz, dtype=float)
+    if datos.shape != (len(filas), len(columnas)):
+        raise ValueError("La matriz no coincide con sus rotulos.")
+    limite = float(np.abs(datos).max()) or 1.0
+    mapa = LinearSegmentedColormap.from_list("signo", [AZUL, FONDO, NARANJA])
+    norma = TwoSlopeNorm(vmin=-limite, vcenter=0.0, vmax=limite)
+    with plt.rc_context(ESTILO):
+        figura, ejes = plt.subplots(
+            figsize=(0.9 * len(columnas) + 1.8, 0.7 * len(filas) + 1.8)
+        )
+        ejes.imshow(datos, cmap=mapa, norm=norma)
+        ejes.set_xticks(range(len(columnas)), columnas)
+        ejes.set_yticks(range(len(filas)), filas)
+        ejes.xaxis.tick_top()
+        for fila in range(len(filas)):
+            for columna in range(len(columnas)):
+                valor = datos[fila, columna]
+                escrito = f"{valor:.{decimales}f}".replace(".", ",")
+                escrito = escrito.replace("-", "\u2212")
+                intensidad = abs(norma(valor) - 0.5)
+                tinta = FONDO if intensidad > 0.3 else TINTA
+                ejes.text(columna, fila, escrito, ha="center", va="center",
+                          color=tinta, fontsize=8)
+        ejes.set_title(titulo, pad=30, loc="left")
+        figura.tight_layout()
+        plt.show()
