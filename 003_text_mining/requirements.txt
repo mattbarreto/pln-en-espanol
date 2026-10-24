@@ -3,6 +3,7 @@
 # Se instalan con:
 #     uv pip install -r requirements.txt
 
+numpy>=1.26         # vectores y matrices de conteo
 pandas>=2.2         # trabajar los datos como tablas
 scikit-learn>=1.5   # CountVectorizer y TfidfVectorizer
 matplotlib>=3.9     # gráficos

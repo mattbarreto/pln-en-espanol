@@ -6,12 +6,15 @@
 # Cada línea es una librería y la versión mínima que necesitamos.
 # El ">=" quiere decir "esta versión o una más nueva".
 
+numpy>=1.26           # cuentas de los gráficos (utils_visualizacion.py)
 pandas>=2.2           # tablas: corpus, resultados y comparaciones
 scikit-learn>=1.5     # TF-IDF, clasificador y matriz de confusión (cuadernos 01 y 02)
 matplotlib>=3.9       # gráficos de todos los cuadernos
 pysentimiento>=0.7    # modelo preentrenado del cuaderno 03; trae torch y transformers
 ipykernel>=6.29       # correr notebooks dentro de VS Code
 ipywidgets>=8.1       # barras de progreso al descargar el modelo (cuaderno 03)
+huggingface-hub>=0.24 # solo para datos/preparar_titulares.py (bajar los titulares)
+pyarrow>=15.0         # solo para datos/preparar_titulares.py (leer el parquet original)
 
 # El MODELO de sentimiento (unos 416 MB) no se instala con pip ni va acá.
 # Se baja solo la primera vez que se usa, y NO en clase: ver ANTES_DE_LA_CLASE.md

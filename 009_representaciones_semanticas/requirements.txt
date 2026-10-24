@@ -12,6 +12,7 @@
 numpy>=1.26             # vectores y cálculo del coseno
 pandas>=2.2             # tablas de fragmentos, consultas y resultados
 scikit-learn>=1.5       # TF-IDF, PCA, SVD y t-SNE
+scipy>=1.11             # matrices dispersas (cuaderno 01)
 matplotlib>=3.9         # gráficos de los cuadernos 01 y 05 y de las extensiones
 gensim>=4.3             # Word2Vec, fastText y carga de vectores (cuadernos 02 a 05)
 sentence-transformers>=3.0   # embeddings de oraciones (cuadernos 04 y 05); trae torch
