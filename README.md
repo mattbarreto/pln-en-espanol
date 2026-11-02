@@ -83,6 +83,8 @@ La pregunta de fondo que articula todo el laboratorio:
      ● RAG: responder con fuentes y evaluarlo ...... 014_rag
      ↓
      ● Agentes: herramientas, ciclo y controles .... 015_agentes
+     ↓
+     ● Modelos de decisión: elegir, no escribir .... 016_modelos_de_decision
 ```
 
 ---
@@ -102,10 +104,12 @@ La pregunta de fondo que articula todo el laboratorio:
 | 9 | [`009_representaciones_semanticas/`](009_representaciones_semanticas/) | De contar palabras a aprender del contexto: Word2Vec, fastText y embeddings de oración | Local en VS Code (vectores de varios GB) | `gensim`, `sentence-transformers`, `scikit-learn` |
 | 10 | [`010_transfer_learning/`](010_transfer_learning/) | Usar modelos preentrenados, ajustar un clasificador y adaptar BETO a un dominio | Local en VS Code | `transformers`, `torch`, `datasets`, `scikit-learn` |
 | 11 | [`011_attention_transformers/`](011_attention_transformers/) | Atención, máscara causal y bloque Transformer; las cabezas de BETO | Local en VS Code | `numpy`, `torch`, `transformers` |
-| 12 | [`012_large_language_models/`](012_large_language_models/) | Del texto al próximo token; ajuste y evaluación de GPT-2 | Local en VS Code (el laboratorio GPT-2 tiene versión para Colab) | `transformers`, `torch` |
+| 12 | [`012_large_language_models/`](012_large_language_models/) | Del texto al próximo token; ajuste y evaluación de GPT-2 | Local en VS Code (el laboratorio GPT-2 tiene versión para Colab) | `tiktoken`, `transformers`, `torch` |
 | 13 | [`013_apis_llms/`](013_apis_llms/) | Llamar a un modelo, pedir con criterio y obtener salida estructurada | Local con Ollama (`granite4`); Gemini y SerpAPI opcionales | `ollama`, `google-genai`, `pydantic` |
 | 14 | [`014_rag/`](014_rag/) | De documentos a fragmentos, base vectorial, respuestas con fuentes y evaluación | Local con Ollama; Gemini opcional | `chromadb`, `langchain`, `sentence-transformers`, `pypdf` |
 | 15 | [`015_agentes/`](015_agentes/) | Herramientas, ciclo del agente, criterios de verificación y aprobación humana | Local con Ollama; Gemini y SerpAPI opcionales | `smolagents`, `ollama`, `sentence-transformers` |
+| 16 | [`016_modelos_de_decision/`](016_modelos_de_decision/) | Modelos que deciden entre opciones en lugar de escribir: arquitectura, tipos de pregunta, compuerta por confianza y comparación con un LLM | Local en VS Code (Julia-1, gratuito); Ollama opcional | `torch`, `transformers`, `huggingface_hub` |
+| 17 | [`017_laboratorio_de_agentes/`](017_laboratorio_de_agentes/) | Anexo de agentes: un agente que actúa con confirmación, ataques escondidos en los datos y defensas medidas con casos | Local con Ollama | `ollama`, `pandas` |
 
 ### Material transversal
 
@@ -159,11 +163,13 @@ Las unidades 013, 014 y 015 usan claves de servicios externos (opcionales). Copi
 | 8 | Textos de ejemplo y titulares de 2019 | Los textos los construyó el docente; los titulares vienen de [`pysentimiento/spanish-targeted-sentiment-headlines`](https://huggingface.co/datasets/pysentimiento/spanish-targeted-sentiment-headlines). |
 | 9 | Fragmentos literarios, consultas y juicios de relevancia | Ver [FUENTE.md](009_representaciones_semanticas/datos/FUENTE.md). Los vectores preentrenados (SBW, `wiki.es`) se descargan aparte y no se redistribuyen. |
 | 10 y 11 | Avisos y textos sintéticos | Elaborados para la unidad, bajo CC0-1.0 ([LEEME.md](010_transfer_learning/datos/LEEME.md)). |
-| 10 y 11 | *El gaucho Martín Fierro* (1872), de José Hernández | Dominio público; versión del taller «Modelos de lenguaje a tu medida» (FAMAF-UNC / Fundación Vía Libre, 2023, licencia MIT). |
+| 10 | *El gaucho Martín Fierro* (1872), de José Hernández | Dominio público; versión del taller «Modelos de lenguaje a tu medida» (FAMAF-UNC / Fundación Vía Libre, 2023, licencia MIT). |
 | 12 | 26 cuentos de Horacio Quiroga | Dominio público ([FUENTE.md](012_large_language_models/laboratorio_gpt2/datos/quiroga/FUENTE.md)). |
 | 13 | Avisos sintéticos | Los de la unidad 10 ([LEEME.md](013_apis_llms/datos/LEEME.md)). |
 | 14 | Políticas de «Tintas Acme», artículo de *RIA* (INTA) y fragmentos de cuentos | Empresa ficticia creada para el curso; artículo de Laura Pérez Casar (2016); cuentos de la unidad 9 ([LEEME.md](014_rag/datos/LEEME.md)). |
 | 15 | Parcelas agrícolas y políticas de «Tintas Acme» | Datos sintéticos y documentos ficticios creados para el curso ([LEEME.md](015_agentes/datos/LEEME.md)). |
+| 16 | Ocho reseñas breves de películas imaginarias | Escritas por el docente para el curso, dentro del cuaderno. |
+| 17 | Biblioteca popular ficticia | Datos sintéticos creados para el curso; el catálogo incluye un ataque escrito a propósito ([LEEME.md](017_laboratorio_de_agentes/datos/LEEME.md)). |
 
 ---
 

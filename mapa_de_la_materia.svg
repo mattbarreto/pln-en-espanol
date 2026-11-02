@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 2513" width="920" height="2513" role="img" aria-labelledby="t d">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 2663" width="920" height="2663" role="img" aria-labelledby="t d">
 <title id="t">El viaje de la materia</title>
-<desc id="d">Mapa de las trece estaciones de la materia, del lenguaje como dato al modelo como agente, con la pregunta que abre cada una.</desc>
-<rect width="920" height="2513" rx="18" fill="#FBF7EF"/>
-<rect x="10" y="10" width="900" height="2493" rx="12" fill="none" stroke="#E4DACA" stroke-width="2"/>
+<desc id="d">Mapa de las catorce estaciones de la materia, del lenguaje como dato al modelo como agente, con la pregunta que abre cada una.</desc>
+<rect width="920" height="2663" rx="18" fill="#FBF7EF"/>
+<rect x="10" y="10" width="900" height="2643" rx="12" fill="none" stroke="#E4DACA" stroke-width="2"/>
 <g transform="translate(262,26) rotate(35)">
 <path d="M0,0 C46,46 44,130 0,214 C-30,150 -30,60 0,0 Z" fill="#E9DFC9" stroke="#8A6D3B" stroke-width="2"/>
 <line x1="0" y1="42" x2="25" y2="26" stroke="#B89B64" stroke-width="1.2"/>
@@ -41,7 +41,7 @@
 <text x="732.2" y="273" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11.5" fill="#6B645B" font-weight="bold" font-style="normal" text-anchor="start" letter-spacing="1">MODELOS</text>
 <rect x="808.9000000000001" y="262" width="12" height="12" rx="3" fill="#C53030"/>
 <text x="826.9000000000001" y="273" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11.5" fill="#6B645B" font-weight="bold" font-style="normal" text-anchor="start" letter-spacing="1">SISTEMAS</text>
-<line x1="78" y1="304" x2="78" y2="2217" stroke="#CDBFA6" stroke-width="4" stroke-linecap="round"/>
+<line x1="78" y1="304" x2="78" y2="2367" stroke="#CDBFA6" stroke-width="4" stroke-linecap="round"/>
 <circle cx="78" cy="330" r="22" fill="#B7791F" stroke="#FBF7EF" stroke-width="5"/>
 <text x="78" y="337" font-family="Georgia, Times New Roman, serif" font-size="20" fill="#FFFFFF" font-weight="bold" font-style="normal" text-anchor="middle" >1</text>
 <text x="128" y="336" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17.5" fill="#B7791F" font-weight="bold" font-style="normal" text-anchor="start" letter-spacing="0.6">EL LENGUAJE COMO DATO</text>
@@ -133,12 +133,19 @@
 <text x="880" y="2092" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#C53030" font-weight="bold" font-style="normal" text-anchor="end" letter-spacing="1.5" opacity="0.8">SISTEMAS</text>
 <text x="128" y="2124" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="15.5" fill="#2D2A26"><tspan>SmolAgents</tspan><tspan fill="#C53030" font-weight="bold"> → </tspan><tspan>Herramientas</tspan><tspan fill="#C53030" font-weight="bold"> → </tspan><tspan>Planificación</tspan><tspan fill="#C53030" font-weight="bold"> → </tspan><tspan>Ejecución</tspan></text>
 <text x="128" y="2156" font-family="Georgia, Times New Roman, serif" font-size="15" fill="#4A443C" font-weight="normal" font-style="italic" text-anchor="start" >¿Qué pasa cuando el modelo ya no sólo responde, sino que actúa?</text>
-<circle cx="78" cy="2229" r="9" fill="#2D2A26"/>
-<text x="128" y="2235" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#6B645B" font-weight="bold" font-style="normal" text-anchor="start" letter-spacing="3">DESTINO FINAL DE LA MATERIA</text>
-<rect x="118" y="2257" width="762" height="150" rx="14" fill="#2D2A26"/>
-<rect x="118" y="2257" width="8" height="150" rx="4" fill="#D69E2E"/>
-<text x="152" y="2313" font-family="Georgia, Times New Roman, serif" font-size="22" fill="#FBF7EF" font-weight="bold" letter-spacing="1.5"><tspan>TEXTO</tspan><tspan fill="#D69E2E"> → </tspan><tspan>REPRESENTACIÓN</tspan><tspan fill="#D69E2E"> → </tspan><tspan>“COMPRENSIÓN”</tspan></text>
-<text x="152" y="2361" font-family="Georgia, Times New Roman, serif" font-size="22" fill="#FBF7EF" font-weight="bold" letter-spacing="1.5"><tspan>GENERACIÓN</tspan><tspan fill="#D69E2E"> → </tspan><tspan>RECUPERACIÓN</tspan><tspan fill="#D69E2E"> → </tspan><tspan>ACCIÓN</tspan></text>
-<text x="128" y="2447" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14.5" fill="#2D2A26" font-weight="bold" font-style="normal" text-anchor="start" >Corpus → Frecuencias → Lingüística → Embeddings → Transformers → LLMs → RAG → Agentes</text>
-<text x="128" y="2485" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12.5" fill="#6B645B" font-weight="normal" font-style="italic" text-anchor="start" >Aparte del camino: laboratorios complementarios sobre lenguaje hablado (reconocimiento de voz y síntesis).</text>
+<circle cx="78" cy="2213" r="22" fill="#C53030" stroke="#FBF7EF" stroke-width="5"/>
+<text x="78" y="2220" font-family="Georgia, Times New Roman, serif" font-size="20" fill="#FFFFFF" font-weight="bold" font-style="normal" text-anchor="middle" >14</text>
+<text x="128" y="2219" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17.5" fill="#C53030" font-weight="bold" font-style="normal" text-anchor="start" letter-spacing="0.6">DECIDIR SIN ESCRIBIR</text>
+<text x="880" y="2219" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#C53030" font-weight="bold" font-style="normal" text-anchor="end" letter-spacing="1.5" opacity="0.8">SISTEMAS</text>
+<text x="128" y="2251" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="15.5" fill="#2D2A26"><tspan>Modelos de decisión</tspan><tspan fill="#C53030" font-weight="bold"> → </tspan><tspan>Opciones</tspan><tspan fill="#C53030" font-weight="bold"> → </tspan><tspan>Probabilidades</tspan><tspan fill="#C53030" font-weight="bold"> → </tspan><tspan>Compuerta por confianza</tspan></text>
+<text x="128" y="2283" font-family="Georgia, Times New Roman, serif" font-size="15" fill="#4A443C" font-weight="normal" font-style="italic" text-anchor="start" >¿Cuándo conviene que un modelo elija entre opciones en lugar de</text>
+<text x="128" y="2306" font-family="Georgia, Times New Roman, serif" font-size="15" fill="#4A443C" font-weight="normal" font-style="italic" text-anchor="start" >escribir, y cuándo confiar en su elección?</text>
+<circle cx="78" cy="2379" r="9" fill="#2D2A26"/>
+<text x="128" y="2385" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#6B645B" font-weight="bold" font-style="normal" text-anchor="start" letter-spacing="3">DESTINO FINAL DE LA MATERIA</text>
+<rect x="118" y="2407" width="762" height="150" rx="14" fill="#2D2A26"/>
+<rect x="118" y="2407" width="8" height="150" rx="4" fill="#D69E2E"/>
+<text x="152" y="2463" font-family="Georgia, Times New Roman, serif" font-size="22" fill="#FBF7EF" font-weight="bold" letter-spacing="1.5"><tspan>TEXTO</tspan><tspan fill="#D69E2E"> → </tspan><tspan>REPRESENTACIÓN</tspan><tspan fill="#D69E2E"> → </tspan><tspan>“COMPRENSIÓN”</tspan></text>
+<text x="152" y="2511" font-family="Georgia, Times New Roman, serif" font-size="22" fill="#FBF7EF" font-weight="bold" letter-spacing="1.5"><tspan>GENERACIÓN</tspan><tspan fill="#D69E2E"> → </tspan><tspan>RECUPERACIÓN</tspan><tspan fill="#D69E2E"> → </tspan><tspan>ACCIÓN</tspan></text>
+<text x="128" y="2597" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14.5" fill="#2D2A26" font-weight="bold" font-style="normal" text-anchor="start" >Corpus → Frecuencias → Lingüística → Embeddings → Transformers → LLMs → RAG → Agentes</text>
+<text x="128" y="2635" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12.5" fill="#6B645B" font-weight="normal" font-style="italic" text-anchor="start" >Aparte del camino: laboratorios sobre lenguaje hablado (reconocimiento de voz y síntesis) y un anexo práctico de agentes.</text>
 </svg>

@@ -18,7 +18,7 @@ Viene después de Attention y Transformers, y antes de consumir modelos por API,
 
 | Orden | Pieza | Pregunta | Qué se hace |
 |---|---|---|---|
-| 1 | [texto local](01_texto_a_proximo_token.ipynb) | ¿Cómo se transforma un texto en ejemplos de próximo token? | BPE, IDs, ventanas, objetivo desplazado y posición, con el texto Tlön, Uqbar, Orbis Tertius. |
+| 1 | [texto local](intro_llms_texto_con_texto.ipynb) | ¿Cómo se transforma un texto en ejemplos de próximo token? | Tokenización, BPE, IDs, ventanas, objetivo desplazado, embeddings y posición, con Tlön, Uqbar, Orbis Tertius. |
 | 2 | [laboratorio GPT-2](laboratorio_gpt2/README.md) | ¿Qué cambia tras ajustar un modelo generativo y qué evidencia tenemos? | Corpus, bloques, configuración, ajuste, comparación, evaluación y bitácora. |
 
 La primera pieza se ejecuta **solo en computadora local**. El laboratorio tiene su propio entorno y
@@ -54,6 +54,6 @@ Desde esta carpeta:
     uv pip install -r requirements.txt
 
 En Windows, activá con .venv\Scripts\Activate.ps1. Abrí esta carpeta en VS Code, elegí el kernel
-del entorno y ejecutá el cuaderno de arriba hacia abajo. No hace falta instalar JupyterLab ni
-notebook. Pasos completos, para las dos piezas, en [ANTES_DE_LA_CLASE.md](ANTES_DE_LA_CLASE.md).
+del entorno y ejecutá [intro_llms_texto_con_texto.ipynb](intro_llms_texto_con_texto.ipynb) de
+arriba hacia abajo. No hace falta instalar JupyterLab ni notebook.
 

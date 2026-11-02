@@ -1,0 +1,25 @@
+# Librerias de la unidad 016: Modelos de decision.
+#
+# Se instalan con:
+#     uv venv --python 3.12
+#     uv pip install -r requirements.txt
+#
+# Cada linea es una libreria y la version minima con la que se probo.
+
+torch>=2.6                       # lo usa Julia-1 para calcular
+transformers>=5.0,<5.1           # tokenizador y codificador de Julia-1 (version que pide el modelo)
+safetensors>=0.5                 # leer los pesos del modelo
+huggingface_hub>=1.0             # descargar Julia-1 en una revision fija
+numpy>=2.0                       # lo usan el modelo y los graficos
+pandas>=3.0                      # tablas de resultados
+matplotlib>=3.9                  # graficos compartidos del curso
+ollama>=0.6                      # comparar con un modelo de lenguaje local (opcional)
+requests>=2.32                   # comprobar el servidor de Ollama
+python-dotenv>=1.0               # leer la configuracion desde .env
+ipykernel>=6.29                  # correr los cuadernos dentro de VS Code
+ipywidgets>=8.1                  # barra de progreso de la descarga del modelo
+nbformat>=5.10                   # leer los cuadernos
+nbconvert>=7.16                  # ejecutar los cuadernos de arriba a abajo
+
+# El MODELO no se instala con pip: lo descarga la primera celda del cuaderno
+# (ver ANTES_DE_LA_CLASE.md).

@@ -10,7 +10,7 @@ Cada estación abre con una pregunta, y la respuesta de una abre la siguiente. E
 
 > **¿Qué se pierde en cada paso, y qué queda justificado afirmar con lo que quedó?**
 
-![El viaje de la materia: trece estaciones, del lenguaje como dato al modelo como agente](mapa_de_la_materia.svg)
+![El viaje de la materia: catorce estaciones, del lenguaje como dato al modelo como agente](mapa_de_la_materia.svg)
 
 <details>
 <summary>Versión en texto (para terminales y lectores de pantalla)</summary>
@@ -136,6 +136,14 @@ Cada estación abre con una pregunta, y la respuesta de una abre la siguiente. E
   │      ¿Qué pasa cuando el modelo ya no sólo responde,
   │      sino que actúa?
   │
+  ◉ 14 · DECIDIR SIN ESCRIBIR
+  │
+  │      Modelos de decisión → Opciones → Probabilidades
+  │      → Compuerta por confianza
+  │
+  │      ¿Cuándo conviene que un modelo elija entre opciones
+  │      en lugar de escribir, y cuándo confiar en su elección?
+  │
   ╰──▶  DESTINO FINAL DE LA MATERIA
 
   ╔═════════════════════════════════════════════════════════════════════════════════╗
@@ -167,5 +175,6 @@ Cada estación abre con una pregunta, y la respuesta de una abre la siguiente. E
 | 11 | Modelos como servicio | `013_apis_llms` |
 | 12 | Lenguaje más conocimiento | `014_rag` |
 | 13 | Del modelo al agente | `015_agentes` |
+| 14 | Decidir sin escribir | `016_modelos_de_decision` |
 
-Fuera del camino principal hay laboratorios complementarios sobre **lenguaje hablado**: reconocimiento de voz (`005_asr_lab`) y síntesis (`006_sintesis`). Y `001_python` es la base previa a la primera estación.
+Fuera del camino principal hay laboratorios complementarios sobre **lenguaje hablado**, reconocimiento de voz (`005_asr_lab`) y síntesis (`006_sintesis`), y un anexo práctico de agentes (`017_laboratorio_de_agentes`). Y `001_python` es la base previa a la primera estación.
